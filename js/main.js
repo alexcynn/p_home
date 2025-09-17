@@ -104,9 +104,10 @@ document.addEventListener('DOMContentLoaded', function() {
         statsObserver.observe(statsSection);
     }
     
-    // 헤더 스크롤 효과
+    // 헤더 스크롤 효과 및 플로팅 배너
     let lastScrollY = window.scrollY;
     const header = document.querySelector('header');
+    const scrollToTopBtn = document.getElementById('scrollToTop');
     
     window.addEventListener('scroll', () => {
         const currentScrollY = window.scrollY;
@@ -120,8 +121,65 @@ document.addEventListener('DOMContentLoaded', function() {
             header.classList.add('bg-white');
         }
         
+        // 플로팅 내비게이션 표시/숨김 (항상 표시)
+        // 스크롤에 따른 추가 로직이 필요하면 여기에 추가
+        
         lastScrollY = currentScrollY;
     });
+    
+    // 플로팅 내비게이션 기능
+    const floatingNav = document.getElementById('floatingNav');
+    const navItems = document.querySelectorAll('#floatingNav .nav-item');
+    
+    // 각 내비게이션 아이템에 클릭 이벤트 추가
+    navItems.forEach((item, index) => {
+        item.addEventListener('click', function(e) {
+            e.preventDefault();
+            e.stopPropagation(); // 이벤트 버블링 방지
+            
+            const section = this.getAttribute('data-section');
+            console.log(`플로팅 네비게이션 ${index + 1}번 클릭됨:`, section);
+            
+            if (section) {
+                // contact 섹션인 경우 contact.html로 이동
+                if (section === 'contact') {
+                    window.location.href = 'contact.html';
+                    return;
+                }
+                
+                const targetElement = document.getElementById(section);
+                if (targetElement) {
+                    console.log('대상 섹션으로 이동:', section);
+                    
+                    // 헤더 높이를 고려한 정확한 위치로 스크롤
+                    const headerHeight = 80;
+                    const targetPosition = targetElement.offsetTop - headerHeight;
+                    
+                    window.scrollTo({
+                        top: targetPosition,
+                        behavior: 'smooth'
+                    });
+                } else {
+                    console.warn('섹션을 찾을 수 없습니다:', section);
+                }
+            } else {
+                console.warn('data-section 속성이 없습니다:', this);
+            }
+        });
+    });
+    
+    // 맨 위로 가기 버튼
+    if (scrollToTopBtn) {
+        scrollToTopBtn.addEventListener('click', function(e) {
+            e.preventDefault();
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    }
+    
+    console.log('플로팅 내비게이션이 로드되었습니다.');
     
     // 이미지 lazy loading
     const images = document.querySelectorAll('img[data-src]');

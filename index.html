@@ -55,6 +55,13 @@
                 <div class="grid md:grid-cols-2 gap-12 items-center">
                     <!-- Left Content -->
                     <div class="text-left">
+                        <!-- 비전모터 로고 - 맨 상단 -->
+                        <div class="flex justify-start mb-8">
+                            <img src="images/vision-motor-logo-transparent.png" 
+                                 alt="비전모터 로고" 
+                                 class="h-24 md:h-32 hero-logo-transparent">
+                        </div>
+                        
                         <div class="mb-6">
                             <span class="inline-block bg-white/20 text-white px-4 py-2 rounded-full text-sm font-medium mb-4 backdrop-blur-sm">
                                 <i class="fas fa-industry mr-2"></i>2003년 설립, 21년의 전문성
@@ -65,37 +72,31 @@
                             시작되는<br>
                             <span class="text-transparent bg-clip-text bg-gradient-to-r from-white to-blue-200">산업의 심장</span>
                         </h1>
-                        <p class="text-xl md:text-2xl mb-8 opacity-95 leading-relaxed">
+                        <p class="text-xl md:text-2xl mb-10 opacity-95 leading-relaxed">
                             편리한 세상을 창조하는 기업<br>
                             <strong>비전모터</strong>와 함께하세요
                         </p>
                         
-                        <!-- Key Features - 첫 번째 줄 -->
-                        <div class="grid grid-cols-3 gap-4 mb-6">
-                            <div class="text-center">
-                                <div class="text-2xl md:text-3xl font-bold">20000+</div>
-                                <div class="text-sm opacity-90">연간생산능력</div>
+                        <!-- Key Features -->
+                        <div class="grid grid-cols-3 gap-6 mb-10">
+                            <div class="text-left">
+                                <div class="text-3xl md:text-4xl font-bold mb-2">20000+</div>
+                                <div class="text-sm md:text-base opacity-90">연간생산능력</div>
                             </div>
-                            <div class="text-center">
-                                <div class="text-2xl md:text-3xl font-bold">20+</div>
-                                <div class="text-sm opacity-90">년 파트너십</div>
+                            <div class="text-left">
+                                <div class="text-3xl md:text-4xl font-bold mb-2">21+</div>
+                                <div class="text-sm md:text-base opacity-90">년 전문성</div>
                             </div>
-                            <div class="text-center">
-                                <div class="text-2xl md:text-3xl font-bold">ISO</div>
-                                <div class="text-sm opacity-90">품질 인증</div>
+                            <div class="text-left">
+                                <div class="text-3xl md:text-4xl font-bold mb-2">ISO</div>
+                                <div class="text-sm md:text-base opacity-90">품질 인증</div>
                             </div>
                         </div>
                         
-                        <!-- CTA Buttons - 두 번째 줄 -->
-                        <div class="grid grid-cols-3 gap-4">
-                            <a href="contact.html" class="bg-white text-vision-blue px-4 py-3 md:px-6 md:py-4 rounded-lg font-semibold hover:bg-gray-100 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-center text-sm md:text-base">
-                                <i class="fas fa-phone mr-1 md:mr-2"></i>문의하기
-                            </a>
-                            <a href="technology.html" class="border-2 border-white/80 text-white px-4 py-3 md:px-6 md:py-4 rounded-lg font-semibold hover:bg-white hover:text-vision-blue transition-all duration-300 backdrop-blur-sm text-center text-sm md:text-base">
-                                <i class="fas fa-flask mr-1 md:mr-2"></i>핵심 기술력
-                            </a>
-                            <a href="#business-areas" class="border-2 border-white/60 text-white px-4 py-3 md:px-6 md:py-4 rounded-lg font-semibold hover:bg-white hover:text-vision-blue transition-all duration-300 backdrop-blur-sm text-center text-sm md:text-base">
-                                <i class="fas fa-arrow-down mr-1 md:mr-2"></i>사업영역 보기
+                        <!-- CTA Button -->
+                        <div class="flex justify-start">
+                            <a href="contact.html" class="bg-white text-vision-blue px-8 py-4 md:px-10 md:py-5 rounded-xl font-bold text-lg md:text-xl hover:bg-gray-100 transition-all duration-300 shadow-2xl hover:shadow-3xl transform hover:-translate-y-2 hover:scale-105">
+                                <i class="fas fa-phone mr-3"></i>문의하기
                             </a>
                         </div>
                     </div>
@@ -103,93 +104,177 @@
                     <!-- Right Content - Core Competencies -->
                     <div class="space-y-4">
                         <!-- 1. 동기모터 설계·제조 역량 -->
-                        <div class="bg-white/10 backdrop-blur-md rounded-xl p-5 border border-white/20 hover:bg-white/15 transition-all duration-300 cursor-pointer relative" onclick="scrollToSection('#synchronous-motor-capabilities')">
+                        <div id="hero-motor-design" class="bg-white/10 backdrop-blur-md rounded-xl p-5 border border-white/20 hover:bg-white/15 transition-all duration-300 cursor-pointer relative" onclick="scrollToSection('#synchronous-motor-capabilities')">
                             <!-- 번호 배지 -->
                             <div class="absolute -top-2 -left-2 w-6 h-6 bg-blue-600 rounded-full flex items-center justify-center">
                                 <span class="text-white font-bold text-xs">01</span>
                             </div>
-                            <div class="flex items-center mb-3">
-                                <div class="w-10 h-10 bg-gradient-to-r from-blue-400 to-blue-600 rounded-lg flex items-center justify-center mr-3">
-                                    <i class="fas fa-industry text-white text-lg"></i>
+                            <div class="flex items-center justify-between mb-3">
+                                <div class="flex items-center">
+                                    <div class="w-10 h-10 bg-gradient-to-r from-blue-400 to-blue-600 rounded-lg flex items-center justify-center mr-3">
+                                        <i class="fas fa-industry text-white text-lg"></i>
+                                    </div>
+                                    <div>
+                                        <h3 class="text-lg font-bold">동기모터 설계·제조</h3>
+                                        <p class="text-xs opacity-90">산업별 맞춤 솔루션</p>
+                                    </div>
                                 </div>
-                                <div>
-                                    <h3 class="text-lg font-bold">동기모터 설계·제조</h3>
-                                    <p class="text-xs opacity-90">산업별 맞춤 솔루션</p>
+                                <!-- 클릭 유도 버튼 -->
+                                <div class="flex items-center space-x-2">
+                                    <div class="text-xs opacity-70">자세히 보기</div>
+                                    <div class="w-8 h-8 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center hover:bg-white/30 transition-all duration-300">
+                                        <i class="fas fa-arrow-right text-white text-sm"></i>
+                                    </div>
                                 </div>
                             </div>
-                            <p class="text-sm opacity-80">0.5kW~3MW 전 용량 대응, 산업 분야 특화</p>
+                            <p class="text-sm opacity-80 mb-3">0.5kW~3MW 전 용량 대응, 산업 분야 특화</p>
+                            <!-- 진행 바 -->
+                            <div class="w-full bg-white/20 rounded-full h-1">
+                                <div class="bg-blue-400 h-1 rounded-full" style="width: 85%"></div>
+                            </div>
                         </div>
                         
                         <!-- 2. PMSM 효율 특화 -->
-                        <div class="bg-white/10 backdrop-blur-md rounded-xl p-5 border border-white/20 hover:bg-white/15 transition-all duration-300 cursor-pointer relative" onclick="scrollToSection('#pmsm-efficiency')">
+                        <div id="hero-pmsm-efficiency" class="bg-white/10 backdrop-blur-md rounded-xl p-5 border border-white/20 hover:bg-white/15 transition-all duration-300 cursor-pointer relative" onclick="scrollToSection('#pmsm-efficiency')">
                             <!-- 번호 배지 -->
                             <div class="absolute -top-2 -left-2 w-6 h-6 bg-green-600 rounded-full flex items-center justify-center">
                                 <span class="text-white font-bold text-xs">02</span>
                             </div>
-                            <div class="flex items-center mb-3">
-                                <div class="w-10 h-10 bg-gradient-to-r from-green-400 to-green-600 rounded-lg flex items-center justify-center mr-3">
-                                    <i class="fas fa-bolt text-white text-lg"></i>
+                            <div class="flex items-center justify-between mb-3">
+                                <div class="flex items-center">
+                                    <div class="w-10 h-10 bg-gradient-to-r from-green-400 to-green-600 rounded-lg flex items-center justify-center mr-3">
+                                        <i class="fas fa-bolt text-white text-lg"></i>
+                                    </div>
+                                    <div>
+                                        <h3 class="text-lg font-bold">PMSM 효율 특화</h3>
+                                        <p class="text-xs opacity-90">IE4~5급 초고효율</p>
+                                    </div>
                                 </div>
-                                <div>
-                                    <h3 class="text-lg font-bold">PMSM 효율 특화</h3>
-                                    <p class="text-xs opacity-90">IE5급 초고효율</p>
+                                <!-- 클릭 유도 버튼 -->
+                                <div class="flex items-center space-x-2">
+                                    <div class="text-xs opacity-70">자세히 보기</div>
+                                    <div class="w-8 h-8 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center hover:bg-white/30 transition-all duration-300">
+                                        <i class="fas fa-arrow-right text-white text-sm"></i>
+                                    </div>
                                 </div>
                             </div>
-                            <p class="text-sm opacity-80">10~30% 전력절감, 기어리스 설계, 정밀제어</p>
+                            <p class="text-sm opacity-80 mb-3">10~30% 전력절감, 기어리스 설계, 정밀제어</p>
+                            <!-- 효율 지표 -->
+                            <div class="flex items-center justify-between text-xs">
+                                <span class="opacity-70">효율성</span>
+                                <span class="font-bold text-green-300">97%+ IE4~5급</span>
+                            </div>
                         </div>
                         
                         <!-- 3. 스테이터 제조 우수성 -->
-                        <div class="bg-white/10 backdrop-blur-md rounded-xl p-5 border border-white/20 hover:bg-white/15 transition-all duration-300 cursor-pointer relative" onclick="scrollToSection('#stator-manufacturing')">
+                        <div id="hero-stator-manufacturing" class="bg-white/10 backdrop-blur-md rounded-xl p-5 border border-white/20 hover:bg-white/15 transition-all duration-300 cursor-pointer relative" onclick="scrollToSection('#stator-manufacturing')">
                             <!-- 번호 배지 -->
                             <div class="absolute -top-2 -left-2 w-6 h-6 bg-orange-600 rounded-full flex items-center justify-center">
                                 <span class="text-white font-bold text-xs">03</span>
                             </div>
-                            <div class="flex items-center mb-3">
-                                <div class="w-10 h-10 bg-gradient-to-r from-orange-400 to-orange-600 rounded-lg flex items-center justify-center mr-3">
-                                    <i class="fas fa-cog text-white text-lg"></i>
+                            <div class="flex items-center justify-between mb-3">
+                                <div class="flex items-center">
+                                    <div class="w-10 h-10 bg-gradient-to-r from-orange-400 to-orange-600 rounded-lg flex items-center justify-center mr-3">
+                                        <i class="fas fa-cog text-white text-lg"></i>
+                                    </div>
+                                    <div>
+                                        <h3 class="text-lg font-bold">스테이터 제조 우수성</h3>
+                                        <p class="text-xs opacity-90">분포권·집중권 기술</p>
+                                    </div>
                                 </div>
-                                <div>
-                                    <h3 class="text-lg font-bold">스테이터 제조 우수성</h3>
-                                    <p class="text-xs opacity-90">분포권·집중권 기술</p>
+                                <!-- 클릭 유도 버튼 -->
+                                <div class="flex items-center space-x-2">
+                                    <div class="text-xs opacity-70">자세히 보기</div>
+                                    <div class="w-8 h-8 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center hover:bg-white/30 transition-all duration-300">
+                                        <i class="fas fa-arrow-right text-white text-sm"></i>
+                                    </div>
                                 </div>
                             </div>
-                            <p class="text-sm opacity-80">21년 축적 기술력, 효율성 극대화</p>
+                            <p class="text-sm opacity-80 mb-3">21년 축적 기술력, 효율성 극대화</p>
+                            <!-- 경험 표시 -->
+                            <div class="flex items-center space-x-4 text-xs">
+                                <div class="flex items-center">
+                                    <i class="fas fa-calendar text-orange-300 mr-1"></i>
+                                    <span class="font-bold">21년 경험</span>
+                                </div>
+                                <div class="flex items-center">
+                                    <i class="fas fa-award text-orange-300 mr-1"></i>
+                                    <span class="opacity-70">고품질</span>
+                                </div>
+                            </div>
                         </div>
                         
                         <!-- 4. 전문 모터 수리 -->
-                        <div class="bg-white/10 backdrop-blur-md rounded-xl p-5 border border-white/20 hover:bg-white/15 transition-all duration-300 cursor-pointer relative" onclick="scrollToSection('#motor-repair-service')">
+                        <div id="hero-motor-repair" class="bg-white/10 backdrop-blur-md rounded-xl p-5 border border-white/20 hover:bg-white/15 transition-all duration-300 cursor-pointer relative" onclick="scrollToSection('#motor-repair-service')">
                             <!-- 번호 배지 -->
                             <div class="absolute -top-2 -left-2 w-6 h-6 bg-purple-600 rounded-full flex items-center justify-center">
                                 <span class="text-white font-bold text-xs">04</span>
                             </div>
-                            <div class="flex items-center mb-3">
-                                <div class="w-10 h-10 bg-gradient-to-r from-purple-400 to-purple-600 rounded-lg flex items-center justify-center mr-3">
-                                    <i class="fas fa-tools text-white text-lg"></i>
+                            <div class="flex items-center justify-between mb-3">
+                                <div class="flex items-center">
+                                    <div class="w-10 h-10 bg-gradient-to-r from-purple-400 to-purple-600 rounded-lg flex items-center justify-center mr-3">
+                                        <i class="fas fa-tools text-white text-lg"></i>
+                                    </div>
+                                    <div>
+                                        <h3 class="text-lg font-bold">전문 모터 수리</h3>
+                                        <p class="text-xs opacity-90">24시간 긴급대응</p>
+                                    </div>
                                 </div>
-                                <div>
-                                    <h3 class="text-lg font-bold">전문 모터 수리</h3>
-                                    <p class="text-xs opacity-90">24시간 긴급대응</p>
+                                <!-- 클릭 유도 버튼 -->
+                                <div class="flex items-center space-x-2">
+                                    <div class="text-xs opacity-70">자세히 보기</div>
+                                    <div class="w-8 h-8 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center hover:bg-white/30 transition-all duration-300">
+                                        <i class="fas fa-arrow-right text-white text-sm"></i>
+                                    </div>
                                 </div>
                             </div>
-                            <p class="text-sm opacity-80">현대엘리베이터 원데이 수리, 98% 성공률</p>
+                            <p class="text-sm opacity-80 mb-3">현대엘리베이터 원데이 수리, 98% 성공률</p>
+                            <!-- 성과 지표 -->
+                            <div class="flex items-center justify-between text-xs">
+                                <div class="flex items-center">
+                                    <div class="w-2 h-2 bg-red-400 rounded-full mr-1 animate-pulse"></div>
+                                    <span class="opacity-70">24시간 대기</span>
+                                </div>
+                                <span class="font-bold text-purple-300">98% 성공률</span>
+                            </div>
                         </div>
                         
                         <!-- 5. 전담연구소 및 다양한 인증 -->
-                        <div class="bg-white/10 backdrop-blur-md rounded-xl p-5 border border-white/20 hover:bg-white/15 transition-all duration-300 cursor-pointer relative" onclick="scrollToSection('#certifications-research')">
+                        <div id="hero-research-certification" class="bg-white/10 backdrop-blur-md rounded-xl p-5 border border-white/20 hover:bg-white/15 transition-all duration-300 cursor-pointer relative" onclick="scrollToSection('#certifications-research')">
                             <!-- 번호 배지 -->
                             <div class="absolute -top-2 -left-2 w-6 h-6 bg-teal-600 rounded-full flex items-center justify-center">
                                 <span class="text-white font-bold text-xs">05</span>
                             </div>
-                            <div class="flex items-center mb-3">
-                                <div class="w-10 h-10 bg-gradient-to-r from-teal-400 to-teal-600 rounded-lg flex items-center justify-center mr-3">
-                                    <i class="fas fa-certificate text-white text-lg"></i>
+                            <div class="flex items-center justify-between mb-3">
+                                <div class="flex items-center">
+                                    <div class="w-10 h-10 bg-gradient-to-r from-teal-400 to-teal-600 rounded-lg flex items-center justify-center mr-3">
+                                        <i class="fas fa-certificate text-white text-lg"></i>
+                                    </div>
+                                    <div>
+                                        <h3 class="text-lg font-bold">전담연구소 및 다양한 인증</h3>
+                                        <p class="text-xs opacity-90">승강기제조업 라이센스 보유</p>
+                                    </div>
                                 </div>
-                                <div>
-                                    <h3 class="text-lg font-bold">전담연구소 및 다양한 인증</h3>
-                                    <p class="text-xs opacity-90">승강기제조업 라이센스 보유</p>
+                                <!-- 클릭 유도 버튼 -->
+                                <div class="flex items-center space-x-2">
+                                    <div class="text-xs opacity-70">자세히 보기</div>
+                                    <div class="w-8 h-8 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center hover:bg-white/30 transition-all duration-300">
+                                        <i class="fas fa-arrow-right text-white text-sm"></i>
+                                    </div>
                                 </div>
                             </div>
-                            <p class="text-sm opacity-80">ISO 품질인증, 특허증, 전담연구소 운영</p>
+                            <p class="text-sm opacity-80 mb-3">ISO 품질인증, 특허증, 전담연구소 운영</p>
+                            <!-- 인증 아이콘 -->
+                            <div class="flex items-center space-x-3 text-xs">
+                                <div class="flex items-center">
+                                    <i class="fas fa-medal text-yellow-300 mr-1"></i>
+                                    <span class="opacity-70">ISO 인증</span>
+                                </div>
+                                <div class="flex items-center">
+                                    <i class="fas fa-lightbulb text-teal-300 mr-1"></i>
+                                    <span class="opacity-70">특허 보유</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -215,6 +300,29 @@
                         });
                     }
                 }
+
+                // 인증서 모달 기능
+                function openCertModal(img) {
+                    const modal = document.getElementById('certModal');
+                    const modalImage = document.getElementById('modalImage');
+                    modalImage.src = img.src;
+                    modalImage.alt = img.alt;
+                    modal.classList.remove('hidden');
+                    document.body.style.overflow = 'hidden';
+                }
+
+                function closeCertModal() {
+                    const modal = document.getElementById('certModal');
+                    modal.classList.add('hidden');
+                    document.body.style.overflow = 'auto';
+                }
+
+                // ESC 키로 모달 닫기
+                document.addEventListener('keydown', function(e) {
+                    if (e.key === 'Escape') {
+                        closeCertModal();
+                    }
+                });
             </script>
         </section>
 
@@ -362,7 +470,7 @@
                         <div class="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-xl p-8 border-l-4 border-blue-500">
                             <div class="text-center mb-8">
                                 <h4 class="text-2xl font-bold text-blue-900 mb-2">첨단 제조시설 & 납품 실적</h4>
-                                <p class="text-blue-700">현대엘리베이터 20년 파트너십으로 검증된 품질과 생산력</p>
+                                <p class="text-blue-700">현대엘리베이터 20년+ 파트너십으로 검증된 품질과 생산력</p>
                             </div>
                             
                             <div class="grid md:grid-cols-3 gap-6">
@@ -432,7 +540,7 @@
                 </div>
 
                 <!-- 산업별 애플리케이션 그리드 -->
-                <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-8 mb-16">
+                <div class="grid xl:grid-cols-3 lg:grid-cols-2 md:grid-cols-2 gap-8 mb-16">
                     <!-- 유틸리티/플랜트 -->
                     <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden group">
                         <div class="relative h-48 bg-gradient-to-br from-blue-600 to-blue-800 flex items-center justify-center">
@@ -463,7 +571,7 @@
                             </div>
                             <div class="bg-blue-50 rounded-lg p-3">
                                 <div class="text-xs text-blue-700 font-medium">
-                                    IE5급 효율 · 24시간 연속운전 · 내환경성 설계
+                                    IE4~5급 효율 · 24시간 연속운전 · 내환경성 설계
                                 </div>
                             </div>
                         </div>
@@ -613,74 +721,47 @@
                         </div>
                     </div>
 
-                    <!-- 파워 스펙 요약 -->
-                    <div class="bg-gradient-to-br from-vision-dark to-gray-800 rounded-xl shadow-lg overflow-hidden text-white">
+                    <!-- 특수 운송장비 -->
+                    <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden group">
+                        <div class="relative h-48 bg-gradient-to-br from-teal-600 to-cyan-800 flex items-center justify-center">
+                            <i class="fas fa-subway text-white text-6xl group-hover:scale-110 transition-transform duration-300"></i>
+                            <div class="absolute top-4 left-4 bg-white/20 backdrop-blur-sm px-3 py-1 rounded-full">
+                                <span class="text-white text-sm font-medium">Special Transport</span>
+                            </div>
+                        </div>
                         <div class="p-6">
-                            <div class="flex items-center mb-4">
-                                <i class="fas fa-tachometer-alt text-3xl text-blue-400 mr-3"></i>
-                                <h3 class="text-xl font-bold">파워 스펙 범위</h3>
+                            <h3 class="text-xl font-bold text-vision-dark mb-3">특수 운송장비</h3>
+                            <div class="space-y-2 mb-4">
+                                <div class="flex items-center text-sm text-gray-600">
+                                    <i class="fas fa-check text-teal-500 mr-2"></i>
+                                    <span>에스컬레이터·무빙워크</span>
+                                </div>
+                                <div class="flex items-center text-sm text-gray-600">
+                                    <i class="fas fa-check text-teal-500 mr-2"></i>
+                                    <span>윈치/호이스트 (크레인)</span>
+                                </div>
+                                <div class="flex items-center text-sm text-gray-600">
+                                    <i class="fas fa-check text-teal-500 mr-2"></i>
+                                    <span>케이블카·곤돌라</span>
+                                </div>
+                                <div class="flex items-center text-sm text-gray-600">
+                                    <i class="fas fa-check text-teal-500 mr-2"></i>
+                                    <span>전기버스·특수차량</span>
+                                </div>
+                                <div class="flex items-center text-sm text-gray-600">
+                                    <i class="fas fa-check text-teal-500 mr-2"></i>
+                                    <span>ESS·플라이휠 시스템</span>
+                                </div>
                             </div>
-                            <div class="space-y-3">
-                                <div class="bg-white/10 backdrop-blur-sm rounded p-3">
-                                    <div class="text-sm text-blue-300 mb-1">소형 모터</div>
-                                    <div class="font-bold">0.5kW ~ 37kW</div>
-                                </div>
-                                <div class="bg-white/10 backdrop-blur-sm rounded p-3">
-                                    <div class="text-sm text-green-300 mb-1">중형 모터</div>
-                                    <div class="font-bold">45kW ~ 200kW</div>
-                                </div>
-                                <div class="bg-white/10 backdrop-blur-sm rounded p-3">
-                                    <div class="text-sm text-orange-300 mb-1">대형 모터</div>
-                                    <div class="font-bold">250kW ~ 3MW</div>
-                                </div>
-                            </div>
-                            
-                            <!-- 파워 범위 인포그래픽 -->
-                            <div class="mt-6">
-                                <div class="bg-white/5 backdrop-blur-sm rounded-lg p-4">
-                                    <div class="flex items-center justify-center mb-3">
-                                        <i class="fas fa-chart-bar text-2xl text-yellow-400 mr-2"></i>
-                                        <span class="text-sm font-medium text-gray-300">전체 파워 스펙트럼</span>
-                                    </div>
-                                    
-                                    <!-- 파워 스펙트럼 바 -->
-                                    <div class="relative">
-                                        <div class="flex h-3 bg-gray-700 rounded-full overflow-hidden">
-                                            <div class="bg-gradient-to-r from-blue-400 to-blue-500 flex-1" title="소형 모터: 0.5kW ~ 37kW"></div>
-                                            <div class="bg-gradient-to-r from-green-400 to-green-500 flex-1" title="중형 모터: 45kW ~ 200kW"></div>
-                                            <div class="bg-gradient-to-r from-orange-400 to-red-500 flex-1" title="대형 모터: 250kW ~ 3MW"></div>
-                                        </div>
-                                        <div class="flex justify-between mt-2 text-xs text-gray-400">
-                                            <span>0.5kW</span>
-                                            <span class="text-yellow-400 font-medium">3MW</span>
-                                        </div>
-                                    </div>
-                                    
-                                    <!-- 적용 분야 아이콘 -->
-                                    <div class="grid grid-cols-3 gap-3 mt-4">
-                                        <div class="text-center">
-                                            <div class="w-8 h-8 bg-blue-500/20 rounded-full flex items-center justify-center mx-auto mb-1">
-                                                <i class="fas fa-home text-blue-400 text-sm"></i>
-                                            </div>
-                                            <span class="text-xs text-gray-400">일반용</span>
-                                        </div>
-                                        <div class="text-center">
-                                            <div class="w-8 h-8 bg-green-500/20 rounded-full flex items-center justify-center mx-auto mb-1">
-                                                <i class="fas fa-industry text-green-400 text-sm"></i>
-                                            </div>
-                                            <span class="text-xs text-gray-400">산업용</span>
-                                        </div>
-                                        <div class="text-center">
-                                            <div class="w-8 h-8 bg-orange-500/20 rounded-full flex items-center justify-center mx-auto mb-1">
-                                                <i class="fas fa-bolt text-orange-400 text-sm"></i>
-                                            </div>
-                                            <span class="text-xs text-gray-400">발전용</span>
-                                        </div>
-                                    </div>
+                            <div class="bg-teal-50 rounded-lg p-3">
+                                <div class="text-xs text-teal-700 font-medium">
+                                    고효율 · 저소음 · 정밀제어
                                 </div>
                             </div>
                         </div>
                     </div>
+
+
                 </div>
             </div>
         </section>
@@ -700,7 +781,7 @@
                     <h2 class="text-4xl md:text-5xl font-bold text-green-900 mb-6">PMSM 효율 특화</h2>
                     <p class="text-xl text-gray-600 max-w-4xl mx-auto mb-8">
                         영구자석 동기모터(PMSM)의 혁신적 효율성으로 운영비 절감과 환경 친화적 솔루션을 제공합니다.<br>
-                        IE5급 초고효율 달성으로 기존 유도모터 대비 획기적인 성능 향상을 실현합니다.
+                        IE4~5급 초고효율 달성으로 기존 유도모터 대비 획기적인 성능 향상을 실현합니다.
                     </p>
                 </div>
 
@@ -709,7 +790,7 @@
                     <div class="grid lg:grid-cols-2 gap-12 items-center">
                         <div class="relative">
                             <div class="absolute -top-4 -right-4 w-full h-full bg-green-200/30 rounded-2xl"></div>
-                            <img src="images/core-competency-02.jpg" alt="비전모터 PMSM 스테이터 코어 정밀 가공 - IE5급 초고효율 실현" class="relative rounded-2xl shadow-2xl w-full">
+                            <img src="images/core-competency-02.jpg" alt="비전모터 PMSM 스테이터 코어 정밀 가공 - IE4~5급 초고효율 실현" class="relative rounded-2xl shadow-2xl w-full">
                             <div class="absolute bottom-4 right-4 bg-green-900/90 backdrop-blur-sm px-4 py-2 rounded-lg">
                                 <span class="text-white text-sm font-medium">중대형 코어 정렬 및 적층, 지그를 통한 코어적층</span>
                             </div>
@@ -818,7 +899,7 @@
                         <div class="space-y-3">
                             <div class="flex items-center text-sm text-gray-700">
                                 <i class="fas fa-check-circle text-green-500 mr-3"></i>
-                                <span>IE5급 초고효율 달성 (97% 이상)</span>
+                                <span>IE4~5급 초고효율 달성 (97% 이상)</span>
                             </div>
                             <div class="flex items-center text-sm text-gray-700">
                                 <i class="fas fa-check-circle text-green-500 mr-3"></i>
@@ -1231,34 +1312,47 @@
                                 </div>
                             </div>
                             
-                            <!-- 하단 이미지를 원형 디자인으로 배치 -->
-                            <div class="relative">
-                                <div class="flex justify-center items-center">
-                                    <div class="relative">
-                                        <!-- 메인 원형 배경 -->
-                                        <div class="w-48 h-48 rounded-full bg-gradient-to-br from-blue-100 to-blue-200 flex items-center justify-center shadow-lg">
-                                            <!-- 이미지를 원형으로 크롭 -->
-                                            <div class="w-40 h-40 rounded-full overflow-hidden bg-white/80 backdrop-blur-sm shadow-inner">
-                                                <img src="images/distributed-winding.png" alt="분포권 스테이터 구조" class="w-full h-full object-cover scale-110">
+                            <!-- 분포권 컴포넌트 이미지 -->
+                            <div class="relative mt-6">
+                                <div class="bg-white rounded-xl p-6 shadow-inner">
+                                    <h4 class="text-center text-lg font-bold text-blue-800 mb-4">분포권 스테이터 컴포넌트</h4>
+                                    
+                                    <!-- 메인 이미지 -->
+                                    <div class="relative overflow-hidden rounded-lg bg-white">
+                                        <img src="images/distributed-winding-components.jpg" 
+                                             alt="분포권 스테이터 컴포넌트 - 스테이터 코어, 권선, 로터 구조" 
+                                             class="w-full h-auto object-contain">
+                                    </div>
+                                    
+                                    <!-- 컴포넌트 설명 -->
+                                    <div class="grid grid-cols-2 md:grid-cols-4 gap-3 mt-4">
+                                        <div class="text-center bg-blue-50 rounded-lg p-3 shadow-sm">
+                                            <div class="w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-2">
+                                                <i class="fas fa-layer-group text-white text-sm"></i>
                                             </div>
+                                            <div class="text-xs font-bold text-blue-800">스테이터 코어</div>
+                                            <div class="text-xs text-gray-600">적층 구조</div>
                                         </div>
-                                        
-                                        <!-- 장식적 원형 요소들 -->
-                                        <div class="absolute -top-2 -right-2 w-8 h-8 bg-blue-500 rounded-full shadow-md flex items-center justify-center">
-                                            <i class="fas fa-layer-group text-white text-xs"></i>
-                                        </div>
-                                        <div class="absolute -bottom-2 -left-2 w-6 h-6 bg-blue-300 rounded-full shadow-md"></div>
-                                        
-                                        <!-- 기술 정보 라벨들 -->
-                                        <div class="absolute -left-6 top-1/2 transform -translate-y-1/2">
-                                            <div class="bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full shadow-md text-xs text-blue-800 font-medium">
-                                                대형 모터
+                                        <div class="text-center bg-blue-50 rounded-lg p-3 shadow-sm">
+                                            <div class="w-8 h-8 bg-green-500 rounded-full flex items-center justify-center mx-auto mb-2">
+                                                <i class="fas fa-wind text-white text-sm"></i>
                                             </div>
+                                            <div class="text-xs font-bold text-green-800">분포 권선</div>
+                                            <div class="text-xs text-gray-600">균등 배치</div>
                                         </div>
-                                        <div class="absolute -right-6 top-1/2 transform -translate-y-1/2">
-                                            <div class="bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full shadow-md text-xs text-blue-800 font-medium">
-                                                저 토크리플
+                                        <div class="text-center bg-blue-50 rounded-lg p-3 shadow-sm">
+                                            <div class="w-8 h-8 bg-orange-500 rounded-full flex items-center justify-center mx-auto mb-2">
+                                                <i class="fas fa-magnet text-white text-sm"></i>
                                             </div>
+                                            <div class="text-xs font-bold text-orange-800">로터</div>
+                                            <div class="text-xs text-gray-600">영구자석</div>
+                                        </div>
+                                        <div class="text-center bg-blue-50 rounded-lg p-3 shadow-sm">
+                                            <div class="w-8 h-8 bg-purple-500 rounded-full flex items-center justify-center mx-auto mb-2">
+                                                <i class="fas fa-cog text-white text-sm"></i>
+                                            </div>
+                                            <div class="text-xs font-bold text-purple-800">완성품</div>
+                                            <div class="text-xs text-gray-600">조립체</div>
                                         </div>
                                     </div>
                                 </div>
@@ -1334,8 +1428,8 @@
                             <div class="bg-green-50 rounded-lg p-4 mb-6">
                                 <div class="grid grid-cols-2 gap-4 text-center">
                                     <div>
-                                        <div class="text-2xl font-bold text-green-600">85%</div>
-                                        <div class="text-xs text-gray-600">슬롯 충적률</div>
+                                        <div class="text-lg font-bold text-green-600">향상된 충적률</div>
+                                        <div class="text-xs text-gray-600">평균 대비 우수</div>
                                     </div>
                                     <div>
                                         <div class="text-2xl font-bold text-green-600">30%</div>
@@ -1344,36 +1438,43 @@
                                 </div>
                             </div>
                             
-                            <!-- 하단 이미지를 원형 디자인으로 배치 -->
-                            <div class="relative">
-                                <div class="flex justify-center items-center">
-                                    <div class="relative">
-                                        <!-- 메인 원형 배경 -->
-                                        <div class="w-44 h-44 rounded-full bg-gradient-to-br from-green-100 to-green-200 flex items-center justify-center shadow-lg">
-                                            <!-- 이미지를 원형으로 크롭 -->
-                                            <div class="w-36 h-36 rounded-full overflow-hidden bg-white/80 backdrop-blur-sm shadow-inner">
-                                                <img src="images/concentrated-winding.png" alt="집중권 스테이터 구조" class="w-full h-full object-cover scale-110">
+                            <!-- 집중권 컴포넌트 이미지 -->
+                            <div class="relative mt-6">
+                                <div class="bg-white rounded-xl p-6 shadow-inner">
+                                    <h4 class="text-center text-lg font-bold text-green-800 mb-4">집중권 스테이터 컴포넌트</h4>
+                                    
+                                    <!-- 메인 이미지 -->
+                                    <div class="relative overflow-hidden rounded-lg bg-white">
+                                        <img src="images/concentrated-winding-components.jpg" 
+                                             alt="집중권 스테이터 컴포넌트 - 소형, 중형, 대형 사이즈별 구조" 
+                                             class="w-full h-auto object-contain">
+                                    </div>
+                                    
+                                    <!-- 사이즈별 설명 -->
+                                    <div class="grid grid-cols-3 gap-3 mt-4">
+                                        <div class="text-center bg-green-50 rounded-lg p-3 shadow-sm">
+                                            <div class="w-8 h-8 bg-green-500 rounded-full flex items-center justify-center mx-auto mb-2">
+                                                <i class="fas fa-compress text-white text-sm"></i>
                                             </div>
+                                            <div class="text-xs font-bold text-green-800">소형 스테이터</div>
+                                            <div class="text-xs text-gray-600">높이 11.6cm * 직경 65.4cm</div>
                                         </div>
-                                        
-                                        <!-- 장식적 원형 요소들 -->
-                                        <div class="absolute -top-2 -right-2 w-8 h-8 bg-green-500 rounded-full shadow-md flex items-center justify-center">
-                                            <i class="fas fa-compress-arrows-alt text-white text-xs"></i>
-                                        </div>
-                                        <div class="absolute -bottom-2 -left-2 w-6 h-6 bg-green-300 rounded-full shadow-md"></div>
-                                        
-                                        <!-- 기술 정보 라벨들 -->
-                                        <div class="absolute -left-6 top-1/2 transform -translate-y-1/2">
-                                            <div class="bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full shadow-md text-xs text-green-800 font-medium">
-                                                고효율
+                                        <div class="text-center bg-green-50 rounded-lg p-3 shadow-sm">
+                                            <div class="w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-2">
+                                                <i class="fas fa-balance-scale text-white text-sm"></i>
                                             </div>
+                                            <div class="text-xs font-bold text-blue-800">중형 스테이터</div>
+                                            <div class="text-xs text-gray-600">높이 14.5cm * 직경 85cm</div>
                                         </div>
-                                        <div class="absolute -right-6 top-1/2 transform -translate-y-1/2">
-                                            <div class="bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full shadow-md text-xs text-green-800 font-medium">
-                                                컴팩트
+                                        <div class="text-center bg-green-50 rounded-lg p-3 shadow-sm">
+                                            <div class="w-8 h-8 bg-orange-500 rounded-full flex items-center justify-center mx-auto mb-2">
+                                                <i class="fas fa-expand-arrows-alt text-white text-sm"></i>
                                             </div>
+                                            <div class="text-xs font-bold text-orange-800">대형 스테이터</div>
+                                            <div class="text-xs text-gray-600">높이 23.6cm * 직경 85cm</div>
                                         </div>
                                     </div>
+
                                 </div>
                             </div>
                         </div>
@@ -1497,7 +1598,7 @@
                         </div>
                         
                         <div class="space-y-6">
-                            <h3 class="text-3xl font-bold text-purple-100 mb-6">7단계 정밀 진단 시스템</h3>
+                            <h3 class="text-3xl font-bold text-purple-100 mb-6">단계별 정밀 진단 시스템</h3>
                             <div class="space-y-4">
                                 <div class="flex items-start space-x-4">
                                     <div class="w-8 h-8 bg-purple-500 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
@@ -1658,7 +1759,7 @@
                         <div class="bg-blue-500/20 rounded-lg p-4">
                             <div class="text-center">
                                 <div class="text-blue-400 font-bold mb-1">특별 혜택</div>
-                                <div class="text-sm">현대엘리베이터 모터 수리 시<br>3개월 품질보증 + 무료 점검</div>
+                                <div class="text-sm">현대엘리베이터 모터 수리 시<br>원데이 수리 시스템 적용</div>
                             </div>
                         </div>
                     </div>
@@ -1721,15 +1822,15 @@
                         <p class="text-white/80 text-lg">다양한 모터의 수리 전후 비교를 통해 확인하는 비전모터의 전문성</p>
                     </div>
                     
-                    <div class="bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
+                    <div class="bg-white rounded-2xl p-8 border border-white/10">
                         <div class="flex justify-center mb-6">
                             <img src="images/motor-repair-examples.jpg" 
                                  alt="모터 수리 예시 - 수리 전후 비교" 
-                                 class="w-full max-w-4xl rounded-xl shadow-2xl border border-white/20">
+                                 class="w-full max-w-4xl rounded-xl border border-white/20">
                         </div>
                         
                         <div class="grid md:grid-cols-3 gap-6 mt-8">
-                            <div class="text-center bg-white/10 rounded-xl p-6">
+                            <div class="text-center bg-purple-600 rounded-xl p-6">
                                 <div class="w-16 h-16 bg-blue-500 rounded-xl flex items-center justify-center mx-auto mb-4">
                                     <i class="fas fa-before text-white text-2xl"></i>
                                 </div>
@@ -1737,7 +1838,7 @@
                                 <p class="text-white/70 text-sm">권선 소손, 베어링 마모, 절연 불량 등 다양한 문제점 진단</p>
                             </div>
                             
-                            <div class="text-center bg-white/10 rounded-xl p-6">
+                            <div class="text-center bg-purple-600 rounded-xl p-6">
                                 <div class="w-16 h-16 bg-green-500 rounded-xl flex items-center justify-center mx-auto mb-4">
                                     <i class="fas fa-tools text-white text-2xl"></i>
                                 </div>
@@ -1745,7 +1846,7 @@
                                 <p class="text-white/70 text-sm">최신 장비와 숙련된 기술진의 정밀 수리 작업</p>
                             </div>
                             
-                            <div class="text-center bg-white/10 rounded-xl p-6">
+                            <div class="text-center bg-purple-600 rounded-xl p-6">
                                 <div class="w-16 h-16 bg-yellow-500 rounded-xl flex items-center justify-center mx-auto mb-4">
                                     <i class="fas fa-medal text-white text-2xl"></i>
                                 </div>
@@ -1754,101 +1855,95 @@
                             </div>
                         </div>
                         
-                        <div class="bg-gradient-to-r from-blue-500/20 to-green-500/20 rounded-xl p-6 mt-8">
-                            <div class="flex items-center justify-center">
-                                <i class="fas fa-star text-yellow-400 text-xl mr-3"></i>
-                                <span class="text-lg font-bold">모든 수리 작업에 품질보증서 발급 및 6개월 A/S 보장</span>
-                                <i class="fas fa-star text-yellow-400 text-xl ml-3"></i>
-                            </div>
-                        </div>
+
                     </div>
                 </div>
 
                 <!-- 비전모터 6단계 수리 프로세스 -->
-                <div class="bg-white/5 backdrop-blur-sm rounded-2xl p-8 mb-16 border border-white/10">
+                <div class="bg-gradient-to-br from-purple-600 to-purple-800 rounded-2xl p-8 mb-16 border border-purple-500/20">
                     <div class="text-center mb-10">
-                        <h3 class="text-3xl font-bold mb-4">비전모터 6단계 수리 프로세스</h3>
-                        <p class="text-xl text-blue-400 font-medium mb-2">T/M 입고부터 완제품까지</p>
-                        <div class="flex justify-center items-center space-x-2 text-lg font-bold text-white/90">
-                            <span class="bg-blue-500/20 px-3 py-1 rounded-lg">①입고</span>
-                            <i class="fas fa-arrow-right text-blue-400"></i>
-                            <span class="bg-orange-500/20 px-3 py-1 rounded-lg">②분해</span>
-                            <i class="fas fa-arrow-right text-blue-400"></i>
-                            <span class="bg-yellow-500/20 px-3 py-1 rounded-lg">③테스트</span>
-                            <i class="fas fa-arrow-right text-blue-400"></i>
-                            <span class="bg-green-500/20 px-3 py-1 rounded-lg">④제작</span>
-                            <i class="fas fa-arrow-right text-blue-400"></i>
-                            <span class="bg-purple-500/20 px-3 py-1 rounded-lg">⑤생산</span>
-                            <i class="fas fa-arrow-right text-blue-400"></i>
-                            <span class="bg-red-500/20 px-3 py-1 rounded-lg">⑥완성품</span>
+                        <h3 class="text-3xl font-bold mb-4 text-white">비전모터 6단계 수리 프로세스</h3>
+                        <p class="text-xl text-purple-200 font-medium mb-2">T/M 입고부터 완제품까지</p>
+                        <div class="flex justify-center items-center space-x-2 text-lg font-bold text-white">
+                            <span class="bg-blue-500/20 px-3 py-1 rounded-lg text-white font-bold">①입고</span>
+                            <i class="fas fa-arrow-right text-purple-200"></i>
+                            <span class="bg-orange-500/20 px-3 py-1 rounded-lg text-white font-bold">②분해</span>
+                            <i class="fas fa-arrow-right text-purple-200"></i>
+                            <span class="bg-yellow-500/20 px-3 py-1 rounded-lg text-white font-bold">③테스트</span>
+                            <i class="fas fa-arrow-right text-purple-200"></i>
+                            <span class="bg-green-500/20 px-3 py-1 rounded-lg text-white font-bold">④제작</span>
+                            <i class="fas fa-arrow-right text-purple-200"></i>
+                            <span class="bg-purple-500/20 px-3 py-1 rounded-lg text-white font-bold">⑤생산</span>
+                            <i class="fas fa-arrow-right text-purple-200"></i>
+                            <span class="bg-red-500/20 px-3 py-1 rounded-lg text-white font-bold">⑥완성품</span>
                         </div>
                         <p class="text-white/80 mt-4">체계적인 6단계 프로세스로 완벽한 수리 서비스를 제공합니다</p>
                     </div>
 
                     <div class="grid md:grid-cols-3 lg:grid-cols-6 gap-6">
-                        <div class="bg-white/10 rounded-xl p-6 text-center border border-white/20 hover:bg-white/15 transition-all duration-300">
+                        <div class="bg-blue-500/20 rounded-xl p-6 text-center border border-white/20 hover:bg-blue-500/30 transition-all duration-300">
                             <div class="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-4">
                                 <i class="fas fa-inbox text-white text-xl"></i>
                             </div>
-                            <div class="text-lg font-bold mb-2 text-blue-400">①입고</div>
-                            <div class="text-sm font-medium mb-2">접수</div>
-                            <div class="text-xs text-white/70 leading-relaxed">T/M 입고 및<br>문제점 상담</div>
+                            <div class="text-lg font-bold mb-2 text-white">①입고</div>
+                            <div class="text-sm font-medium mb-2 text-blue-100">접수</div>
+                            <div class="text-xs text-white/80 leading-relaxed">T/M 입고 및<br>문제점 상담</div>
                         </div>
 
-                        <div class="bg-white/10 rounded-xl p-6 text-center border border-white/20 hover:bg-white/15 transition-all duration-300">
+                        <div class="bg-orange-500/20 rounded-xl p-6 text-center border border-white/20 hover:bg-orange-500/30 transition-all duration-300">
                             <div class="w-16 h-16 bg-orange-500 rounded-full flex items-center justify-center mx-auto mb-4">
                                 <i class="fas fa-wrench text-white text-xl"></i>
                             </div>
-                            <div class="text-lg font-bold mb-2 text-orange-400">②분해</div>
-                            <div class="text-sm font-medium mb-2">수거</div>
-                            <div class="text-xs text-white/70 leading-relaxed">완전 분해 및<br>현장 수거</div>
+                            <div class="text-lg font-bold mb-2 text-white">②분해</div>
+                            <div class="text-sm font-medium mb-2 text-orange-100">수거</div>
+                            <div class="text-xs text-white/80 leading-relaxed">완전 분해 및<br>현장 수거</div>
                         </div>
 
-                        <div class="bg-white/10 rounded-xl p-6 text-center border border-white/20 hover:bg-white/15 transition-all duration-300">
+                        <div class="bg-yellow-500/20 rounded-xl p-6 text-center border border-white/20 hover:bg-yellow-500/30 transition-all duration-300">
                             <div class="w-16 h-16 bg-yellow-500 rounded-full flex items-center justify-center mx-auto mb-4">
                                 <i class="fas fa-search text-white text-xl"></i>
                             </div>
-                            <div class="text-lg font-bold mb-2 text-yellow-400">③테스트</div>
-                            <div class="text-sm font-medium mb-2">진단</div>
-                            <div class="text-xs text-white/70 leading-relaxed">정밀 테스트 및<br>불량 원인 분석</div>
+                            <div class="text-lg font-bold mb-2 text-white">③테스트</div>
+                            <div class="text-sm font-medium mb-2 text-yellow-100">진단</div>
+                            <div class="text-xs text-white/80 leading-relaxed">정밀 테스트 및<br>불량 원인 분석</div>
                         </div>
 
-                        <div class="bg-white/10 rounded-xl p-6 text-center border border-white/20 hover:bg-white/15 transition-all duration-300">
+                        <div class="bg-green-500/20 rounded-xl p-6 text-center border border-white/20 hover:bg-green-500/30 transition-all duration-300">
                             <div class="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center mx-auto mb-4">
                                 <i class="fas fa-cogs text-white text-xl"></i>
                             </div>
-                            <div class="text-lg font-bold mb-2 text-green-400">④제작</div>
-                            <div class="text-sm font-medium mb-2">견적</div>
-                            <div class="text-xs text-white/70 leading-relaxed">부품 제작 및<br>수리 견적서</div>
+                            <div class="text-lg font-bold mb-2 text-white">④제작</div>
+                            <div class="text-sm font-medium mb-2 text-green-100">견적</div>
+                            <div class="text-xs text-white/80 leading-relaxed">부품 제작 및<br>수리 견적서</div>
                         </div>
 
-                        <div class="bg-white/10 rounded-xl p-6 text-center border border-white/20 hover:bg-white/15 transition-all duration-300">
+                        <div class="bg-purple-500/20 rounded-xl p-6 text-center border border-white/20 hover:bg-purple-500/30 transition-all duration-300">
                             <div class="w-16 h-16 bg-purple-500 rounded-full flex items-center justify-center mx-auto mb-4">
                                 <i class="fas fa-industry text-white text-xl"></i>
                             </div>
-                            <div class="text-lg font-bold mb-2 text-purple-400">⑤생산</div>
-                            <div class="text-sm font-medium mb-2">수리</div>
-                            <div class="text-xs text-white/70 leading-relaxed">전문 수리 및<br>조립 생산</div>
+                            <div class="text-lg font-bold mb-2 text-white">⑤생산</div>
+                            <div class="text-sm font-medium mb-2 text-purple-100">수리</div>
+                            <div class="text-xs text-white/80 leading-relaxed">전문 수리 및<br>조립 생산</div>
                         </div>
 
-                        <div class="bg-white/10 rounded-xl p-6 text-center border border-white/20 hover:bg-white/15 transition-all duration-300">
+                        <div class="bg-red-500/20 rounded-xl p-6 text-center border border-white/20 hover:bg-red-500/30 transition-all duration-300">
                             <div class="w-16 h-16 bg-red-500 rounded-full flex items-center justify-center mx-auto mb-4">
                                 <i class="fas fa-medal text-white text-xl"></i>
                             </div>
-                            <div class="text-lg font-bold mb-2 text-red-400">⑥완성품</div>
-                            <div class="text-sm font-medium mb-2">납품</div>
-                            <div class="text-xs text-white/70 leading-relaxed">품질보증 및<br>완제품 납품</div>
+                            <div class="text-lg font-bold mb-2 text-white">⑥완성품</div>
+                            <div class="text-sm font-medium mb-2 text-red-100">납품</div>
+                            <div class="text-xs text-white/80 leading-relaxed">품질보증 및<br>완제품 납품</div>
                         </div>
                     </div>
 
                     <!-- 실제 공정 사진 -->
                     <div class="mt-12 mb-8">
                         <div class="text-center mb-6">
-                            <h4 class="text-2xl font-bold mb-3">실제 공정 현장</h4>
+                            <h4 class="text-2xl font-bold mb-3 text-white">실제 공정 현장</h4>
                             <p class="text-white/80">비전모터의 6단계 수리 프로세스를 실제 작업 현장에서 확인하세요</p>
                         </div>
                         
-                        <div class="bg-white/5 backdrop-blur-sm rounded-2xl p-6 border border-white/10">
+                        <div class="bg-white rounded-2xl p-6 border border-gray-200">
                             <!-- 이미지 영역 -->
                             <div class="overflow-hidden rounded-xl mb-6">
                                 <img src="images/repair-process-real.jpg" 
@@ -1857,8 +1952,8 @@
                             </div>
                             
                             <!-- 6단계 프로세스 라벨 (분리된 영역) -->
-                            <div class="bg-white/10 backdrop-blur-sm rounded-xl p-4 mb-6">
-                                <h5 class="text-center text-lg font-bold mb-4 text-white">6단계 수리 프로세스</h5>
+                            <div class="bg-gray-50 rounded-xl p-4 mb-6">
+                                <h5 class="text-center text-lg font-bold mb-4 text-gray-800">6단계 수리 프로세스</h5>
                                 <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3">
                                     <div class="bg-blue-500 rounded-lg p-3 text-center text-white">
                                         <div class="font-bold text-sm mb-1">①입고</div>
@@ -1889,20 +1984,20 @@
                             
                             <!-- 하단 설명 -->
                             <div class="mt-6 grid md:grid-cols-3 gap-4">
-                                <div class="text-center bg-white/10 rounded-lg p-4">
-                                    <i class="fas fa-camera text-blue-400 text-xl mb-2"></i>
-                                    <div class="font-bold text-sm mb-1">실제 현장</div>
-                                    <div class="text-xs text-white/70">비전모터 공장에서 직접 촬영된 수리 공정 사진</div>
+                                <div class="text-center bg-blue-50 rounded-lg p-4 border border-blue-100">
+                                    <i class="fas fa-camera text-blue-600 text-xl mb-2"></i>
+                                    <div class="font-bold text-sm mb-1 text-blue-800">실제 현장</div>
+                                    <div class="text-xs text-blue-600">비전모터 공장에서 직접 촬영된 수리 공정 사진</div>
                                 </div>
-                                <div class="text-center bg-white/10 rounded-lg p-4">
-                                    <i class="fas fa-tools text-green-400 text-xl mb-2"></i>
-                                    <div class="font-bold text-sm mb-1">전문 장비</div>
-                                    <div class="text-xs text-white/70">최신 수리 장비와 테스트 시스템 보유</div>
+                                <div class="text-center bg-blue-50 rounded-lg p-4 border border-blue-100">
+                                    <i class="fas fa-tools text-green-600 text-xl mb-2"></i>
+                                    <div class="font-bold text-sm mb-1 text-green-800">전문 장비</div>
+                                    <div class="text-xs text-green-600">최신 수리 장비와 테스트 시스템 보유</div>
                                 </div>
-                                <div class="text-center bg-white/10 rounded-lg p-4">
-                                    <i class="fas fa-award text-yellow-400 text-xl mb-2"></i>
-                                    <div class="font-bold text-sm mb-1">품질 관리</div>
-                                    <div class="text-xs text-white/70">각 단계마다 엄격한 품질 검사 실시</div>
+                                <div class="text-center bg-blue-50 rounded-lg p-4 border border-blue-100">
+                                    <i class="fas fa-award text-amber-600 text-xl mb-2"></i>
+                                    <div class="font-bold text-sm mb-1 text-amber-800">품질 관리</div>
+                                    <div class="text-xs text-amber-600">각 단계마다 엄격한 품질 검사 실시</div>
                                 </div>
                             </div>
                         </div>
@@ -1912,7 +2007,7 @@
                         <div class="text-center">
                             <div class="flex items-center justify-center mb-3">
                                 <i class="fas fa-certificate text-yellow-400 text-2xl mr-3"></i>
-                                <span class="text-xl font-bold">비전모터 품질 약속</span>
+                                <span class="text-xl font-bold text-white">비전모터 품질 약속</span>
                                 <i class="fas fa-certificate text-yellow-400 text-2xl ml-3"></i>
                             </div>
                             <p class="text-white/90">모든 단계에서 철저한 품질관리를 통해 신품 수준의 성능을 보장합니다</p>
@@ -1975,7 +2070,14 @@
                                 <i class="fas fa-envelope text-blue-400 mr-3"></i>
                                 <div>
                                     <div class="font-medium">이메일 문의</div>
-                                    <div class="text-blue-400 text-sm">repair@visionmotor.co.kr</div>
+                                    <div class="text-blue-400 text-sm">dnjskuk@visionmotor.co.kr</div>
+                                </div>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="fas fa-mobile-alt text-orange-400 mr-3"></i>
+                                <div>
+                                    <div class="font-medium">영업팀 직통</div>
+                                    <div class="text-orange-400 text-sm">김원국 과장 010-9087-1259</div>
                                 </div>
                             </div>
                             <div class="flex items-center">
@@ -2154,67 +2256,194 @@
                             <p class="text-gray-600">비전모터가 보유한 실제 인증서, 특허증, 정부 승인 라이센스를 확인하세요</p>
                         </div>
                         
-                        <div class="bg-white rounded-2xl shadow-2xl p-8 border border-teal-100">
-                            <div class="relative overflow-hidden rounded-xl">
-                                <img src="images/certifications-collection.jpg" 
-                                     alt="비전모터 보유 인증서 - 승강기제조업 라이센스, ISO 9001, ISO 14001, 특허증" 
-                                     class="w-full h-auto object-contain bg-gray-50 rounded-xl shadow-lg">
-                                
-                                <!-- 인증서 라벨 오버레이 -->
-                                <div class="absolute bottom-4 left-4 right-4">
-                                    <div class="bg-white/95 backdrop-blur-sm rounded-lg p-4">
-                                        <div class="grid grid-cols-4 md:grid-cols-7 gap-2 text-xs text-center">
-                                            <div class="bg-teal-500 text-white rounded px-2 py-1">
-                                                <div class="font-bold">연구개발</div>
-                                                <div class="opacity-90">전담부서</div>
-                                            </div>
-                                            <div class="bg-blue-500 text-white rounded px-2 py-1">
-                                                <div class="font-bold">소재부품</div>
-                                                <div class="opacity-90">전문기업</div>
-                                            </div>
-                                            <div class="bg-green-500 text-white rounded px-2 py-1">
-                                                <div class="font-bold">특허증</div>
-                                                <div class="opacity-90">모터자석</div>
-                                            </div>
-                                            <div class="bg-purple-500 text-white rounded px-2 py-1">
-                                                <div class="font-bold">특허증</div>
-                                                <div class="opacity-90">피딩기</div>
-                                            </div>
-                                            <div class="bg-yellow-600 text-white rounded px-2 py-1">
-                                                <div class="font-bold">ISO9001</div>
-                                                <div class="opacity-90">품질인증</div>
-                                            </div>
-                                            <div class="bg-orange-500 text-white rounded px-2 py-1">
-                                                <div class="font-bold">ISO14001</div>
-                                                <div class="opacity-90">환경인증</div>
-                                            </div>
-                                            <div class="bg-red-500 text-white rounded px-2 py-1">
-                                                <div class="font-bold">제조등록증</div>
-                                                <div class="opacity-90">정부승인</div>
-                                            </div>
-                                        </div>
+                        <!-- 고품질 인증서 갤러리 -->
+                        <div class="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+                            <!-- 승강기제조업 라이센스 -->
+                            <div class="bg-white rounded-2xl shadow-xl border border-red-200 overflow-hidden group hover:shadow-2xl transition-all duration-300 hover:scale-105">
+                                <div class="bg-gradient-to-r from-red-500 to-pink-500 text-white p-4 text-center">
+                                    <i class="fas fa-building text-2xl mb-2"></i>
+                                    <h4 class="font-bold text-lg">승강기제조업 라이센스</h4>
+                                    <p class="text-sm opacity-90">정부승인 제조업체 자격</p>
+                                </div>
+                                <div class="p-4">
+                                    <img src="images/cert-elevator-manufacturing.jpg" 
+                                         alt="승강기제조업 라이센스" 
+                                         class="w-full h-64 object-contain bg-gray-50 rounded-lg shadow-md hover:shadow-lg transition-shadow cursor-pointer"
+                                         onclick="openCertModal(this)">
+                                    <div class="mt-4 text-center">
+                                        <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-bold">2023년 발급</span>
                                     </div>
                                 </div>
                             </div>
-                            
-                            <!-- 하단 설명 카드 -->
-                            <div class="mt-8 grid md:grid-cols-3 gap-6">
-                                <div class="text-center bg-teal-50 rounded-xl p-6 border border-teal-200">
-                                    <i class="fas fa-certificate text-teal-600 text-2xl mb-3"></i>
-                                    <h5 class="font-bold text-teal-800 mb-2">정부 공인 인증</h5>
-                                    <p class="text-sm text-gray-600">승강기제조업 라이센스 및 각종 정부 승인 문서</p>
+
+                            <!-- 연구개발 전담부서 -->
+                            <div class="bg-white rounded-2xl shadow-xl border border-teal-200 overflow-hidden group hover:shadow-2xl transition-all duration-300 hover:scale-105">
+                                <div class="bg-gradient-to-r from-teal-500 to-cyan-500 text-white p-4 text-center">
+                                    <i class="fas fa-microscope text-2xl mb-2"></i>
+                                    <h4 class="font-bold text-lg">연구개발 전담부서</h4>
+                                    <p class="text-sm opacity-90">KOITA 인증</p>
                                 </div>
-                                <div class="text-center bg-blue-50 rounded-xl p-6 border border-blue-200">
-                                    <i class="fas fa-award text-blue-600 text-2xl mb-3"></i>
-                                    <h5 class="font-bold text-blue-800 mb-2">국제 품질 인증</h5>
-                                    <p class="text-sm text-gray-600">ISO 9001, ISO 14001 국제 표준 인증 보유</p>
-                                </div>
-                                <div class="text-center bg-purple-50 rounded-xl p-6 border border-purple-200">
-                                    <i class="fas fa-lightbulb text-purple-600 text-2xl mb-3"></i>
-                                    <h5 class="font-bold text-purple-800 mb-2">독자 기술 특허</h5>
-                                    <p class="text-sm text-gray-600">모터자석 및 피딩기 핵심 기술 특허 등록</p>
+                                <div class="p-4">
+                                    <img src="images/cert-research-dept.jpg" 
+                                         alt="연구개발 전담부서 인증서" 
+                                         class="w-full h-64 object-contain bg-gray-50 rounded-lg shadow-md hover:shadow-lg transition-shadow cursor-pointer"
+                                         onclick="openCertModal(this)">
+                                    <div class="mt-4 text-center">
+                                        <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-bold">2021년 인증</span>
+                                    </div>
                                 </div>
                             </div>
+
+                            <!-- 소재부품 전문기업 -->
+                            <div class="bg-white rounded-2xl shadow-xl border border-blue-200 overflow-hidden group hover:shadow-2xl transition-all duration-300 hover:scale-105">
+                                <div class="bg-gradient-to-r from-blue-500 to-indigo-500 text-white p-4 text-center">
+                                    <i class="fas fa-cogs text-2xl mb-2"></i>
+                                    <h4 class="font-bold text-lg">소재부품 전문기업</h4>
+                                    <p class="text-sm opacity-90">산업기술평가관리원</p>
+                                </div>
+                                <div class="p-4">
+                                    <img src="images/cert-parts-specialist.jpg" 
+                                         alt="소재부품 전문기업 인증서" 
+                                         class="w-full h-64 object-contain bg-gray-50 rounded-lg shadow-md hover:shadow-lg transition-shadow cursor-pointer"
+                                         onclick="openCertModal(this)">
+                                    <div class="mt-4 text-center">
+                                        <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-bold">2020년 인증</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- ISO 9001:2015 -->
+                            <div class="bg-white rounded-2xl shadow-xl border border-emerald-200 overflow-hidden group hover:shadow-2xl transition-all duration-300 hover:scale-105">
+                                <div class="bg-gradient-to-r from-emerald-500 to-green-500 text-white p-4 text-center">
+                                    <i class="fas fa-award text-2xl mb-2"></i>
+                                    <h4 class="font-bold text-lg">ISO 9001:2015</h4>
+                                    <p class="text-sm opacity-90">품질경영시스템</p>
+                                </div>
+                                <div class="p-4">
+                                    <img src="images/cert-iso-9001.jpg" 
+                                         alt="ISO 9001:2015 품질경영시스템 인증서" 
+                                         class="w-full h-64 object-contain bg-gray-50 rounded-lg shadow-md hover:shadow-lg transition-shadow cursor-pointer"
+                                         onclick="openCertModal(this)">
+                                    <div class="mt-4 text-center">
+                                        <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-bold">~2028년</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- ISO 14001:2015 -->
+                            <div class="bg-white rounded-2xl shadow-xl border border-green-200 overflow-hidden group hover:shadow-2xl transition-all duration-300 hover:scale-105">
+                                <div class="bg-gradient-to-r from-green-500 to-emerald-600 text-white p-4 text-center">
+                                    <i class="fas fa-leaf text-2xl mb-2"></i>
+                                    <h4 class="font-bold text-lg">ISO 14001:2015</h4>
+                                    <p class="text-sm opacity-90">환경경영시스템</p>
+                                </div>
+                                <div class="p-4">
+                                    <img src="images/cert-iso-14001.jpg" 
+                                         alt="ISO 14001:2015 환경경영시스템 인증서" 
+                                         class="w-full h-64 object-contain bg-gray-50 rounded-lg shadow-md hover:shadow-lg transition-shadow cursor-pointer"
+                                         onclick="openCertModal(this)">
+                                    <div class="mt-4 text-center">
+                                        <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-bold">~2028년</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- 특허증 - 모터자석 -->
+                            <div class="bg-white rounded-2xl shadow-xl border border-purple-200 overflow-hidden group hover:shadow-2xl transition-all duration-300 hover:scale-105">
+                                <div class="bg-gradient-to-r from-purple-500 to-pink-500 text-white p-4 text-center">
+                                    <i class="fas fa-lightbulb text-2xl mb-2"></i>
+                                    <h4 class="font-bold text-lg">특허증</h4>
+                                    <p class="text-sm opacity-90">모터 자석 부착용 피딩기</p>
+                                </div>
+                                <div class="p-4">
+                                    <img src="images/patent-motor-magnet.jpg" 
+                                         alt="모터 자석 관련 특허증" 
+                                         class="w-full h-64 object-contain bg-gray-50 rounded-lg shadow-md hover:shadow-lg transition-shadow cursor-pointer"
+                                         onclick="openCertModal(this)">
+                                    <div class="mt-4 text-center">
+                                        <span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-bold">제10-1939115호</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- 특허증 - 피딩기 -->
+                            <div class="bg-white rounded-2xl shadow-xl border border-indigo-200 overflow-hidden group hover:shadow-2xl transition-all duration-300 hover:scale-105">
+                                <div class="bg-gradient-to-r from-indigo-500 to-purple-600 text-white p-4 text-center">
+                                    <i class="fas fa-scroll text-2xl mb-2"></i>
+                                    <h4 class="font-bold text-lg">특허증</h4>
+                                    <p class="text-sm opacity-90">오리 자석 연속 공급 피딩기</p>
+                                </div>
+                                <div class="p-4">
+                                    <img src="images/patent-feeding-device.jpg" 
+                                         alt="피딩기 관련 특허증" 
+                                         class="w-full h-64 object-contain bg-gray-50 rounded-lg shadow-md hover:shadow-lg transition-shadow cursor-pointer"
+                                         onclick="openCertModal(this)">
+                                    <div class="mt-4 text-center">
+                                        <span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-bold">제10-1939118호</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 인증서 확대보기 모달 -->
+                        <div id="certModal" class="fixed inset-0 bg-black bg-opacity-75 hidden z-50 flex items-center justify-center p-4" onclick="closeCertModal()">
+                            <div class="max-w-4xl max-h-full overflow-auto" onclick="event.stopPropagation()">
+                                <div class="bg-white rounded-2xl p-6">
+                                    <div class="flex justify-between items-center mb-4">
+                                        <h3 class="text-xl font-bold text-gray-800">인증서 상세보기</h3>
+                                        <button onclick="closeCertModal()" class="text-gray-500 hover:text-gray-700 text-2xl">&times;</button>
+                                    </div>
+                                    <img id="modalImage" src="" alt="" class="w-full h-auto object-contain rounded-lg shadow-lg">
+                                </div>
+                            </div>
+                        </div>
+                            
+                        <!-- 인증서 통계 요약 -->
+                        <div class="mt-12 bg-gradient-to-r from-teal-50 via-blue-50 to-purple-50 rounded-2xl p-8 border border-teal-200">
+                            <h4 class="text-2xl font-bold text-center text-teal-900 mb-8">인증 현황 한눈에 보기</h4>
+                            
+                            <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+                                <div class="bg-white rounded-xl p-6 shadow-lg border border-gray-200">
+                                    <div class="text-3xl font-bold text-red-600 mb-2">1개</div>
+                                    <div class="text-sm text-gray-600 font-medium">정부 라이센스</div>
+                                    <div class="text-xs text-gray-500 mt-1">승강기제조업</div>
+                                </div>
+                                <div class="bg-white rounded-xl p-6 shadow-lg border border-gray-200">
+                                    <div class="text-3xl font-bold text-blue-600 mb-2">2개</div>
+                                    <div class="text-sm text-gray-600 font-medium">ISO 인증</div>
+                                    <div class="text-xs text-gray-500 mt-1">품질·환경경영</div>
+                                </div>
+                                <div class="bg-white rounded-xl p-6 shadow-lg border border-gray-200">
+                                    <div class="text-3xl font-bold text-purple-600 mb-2">2개</div>
+                                    <div class="text-sm text-gray-600 font-medium">기술 특허</div>
+                                    <div class="text-xs text-gray-500 mt-1">모터·피딩기</div>
+                                </div>
+                                <div class="bg-white rounded-xl p-6 shadow-lg border border-gray-200">
+                                    <div class="text-3xl font-bold text-teal-600 mb-2">2개</div>
+                                    <div class="text-sm text-gray-600 font-medium">전문기업 인증</div>
+                                    <div class="text-xs text-gray-500 mt-1">R&D·소재부품</div>
+                                </div>
+                            </div>
+
+                            <!-- 하단 설명 카드 -->
+                            <div class="mt-8 grid md:grid-cols-3 gap-6">
+                                <div class="text-center bg-white rounded-xl p-6 border border-red-200 shadow-lg">
+                                    <i class="fas fa-building text-red-600 text-2xl mb-3"></i>
+                                    <h5 class="font-bold text-red-800 mb-2">정부 공인 제조업체</h5>
+                                    <p class="text-sm text-gray-600">승강기제조업 라이센스 및 연구개발 전담부서 인증 보유</p>
+                                </div>
+                                <div class="text-center bg-white rounded-xl p-6 border border-blue-200 shadow-lg">
+                                    <i class="fas fa-globe text-blue-600 text-2xl mb-3"></i>
+                                    <h5 class="font-bold text-blue-800 mb-2">국제 표준 준수</h5>
+                                    <p class="text-sm text-gray-600">ISO 9001 품질경영 및 ISO 14001 환경경영시스템 인증 (~2028년)</p>
+                                </div>
+                                <div class="text-center bg-white rounded-xl p-6 border border-purple-200 shadow-lg">
+                                    <i class="fas fa-lightbulb text-purple-600 text-2xl mb-3"></i>
+                                    <h5 class="font-bold text-purple-800 mb-2">혁신 기술력</h5>
+                                    <p class="text-sm text-gray-600">모터자석 부착 및 오리자석 연속공급 피딩기 독자 기술특허</p>
+                                </div>
+                            </div>
+                        </div>
                         </div>
                     </div>
                 </div>
@@ -2287,15 +2516,19 @@
     </main>
 
     <!-- Footer -->
-    <footer class="bg-vision-dark text-white py-12">
+    <footer id="contact" class="bg-vision-dark text-white py-12">
         <div class="container mx-auto px-4">
             <div class="grid md:grid-cols-3 gap-8">
                 <div>
                     <div class="flex items-center mb-4">
-                        <img src="images/logo-white.png" alt="비전모터 로고" class="h-10 mr-3">
+                        <img src="images/vision-motor-logo-transparent.png" alt="비전모터 로고" class="h-10 mr-3">
                         <h3 class="text-xl font-bold">비전모터(주)</h3>
                     </div>
-                    <p class="text-gray-300 mb-4">권선에서 시작되는 산업의 심장</p>
+                    <p class="text-gray-300 mb-2">권선에서 시작되는 산업의 심장</p>
+                    <div class="text-sm text-gray-400 space-y-1">
+                        <p>사업자등록번호 : 134-81-99692</p>
+                        <p>대표자 : 김주현</p>
+                    </div>
                 </div>
                 
                 <div>
@@ -2338,6 +2571,99 @@
             </div>
         </div>
     </footer>
+
+    <!-- 플로팅 맨 위로 가기 버튼 -->
+    <!-- 플로팅 섹션 내비게이션 -->
+    <div id="floatingNav" class="fixed right-6 top-1/2 transform -translate-y-1/2 z-50 opacity-90 hover:opacity-100 transition-all duration-300">
+        <!-- 내비게이션 컨테이너 -->
+        <div class="bg-white/95 backdrop-blur-sm rounded-2xl shadow-2xl border border-purple-100 p-3 space-y-2">
+            <!-- 01. 동기모터 설계·제조 -->
+            <div class="nav-item group" data-section="synchronous-motor-capabilities">
+                <div class="flex items-center cursor-pointer p-2 rounded-xl hover:bg-purple-50 transition-all duration-300">
+                    <div class="w-8 h-8 bg-gradient-to-br from-blue-500 to-blue-600 rounded-lg flex items-center justify-center text-white text-xs font-bold mr-3 group-hover:scale-110 transition-transform">
+                        01
+                    </div>
+                    <div class="nav-text hidden group-hover:block text-sm font-medium text-gray-700 whitespace-nowrap">
+                        동기모터 설계·제조
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 02. PMSM 효율 특화 -->
+            <div class="nav-item group" data-section="pmsm-efficiency">
+                <div class="flex items-center cursor-pointer p-2 rounded-xl hover:bg-orange-50 transition-all duration-300">
+                    <div class="w-8 h-8 bg-gradient-to-br from-orange-500 to-orange-600 rounded-lg flex items-center justify-center text-white text-xs font-bold mr-3 group-hover:scale-110 transition-transform">
+                        02
+                    </div>
+                    <div class="nav-text hidden group-hover:block text-sm font-medium text-gray-700 whitespace-nowrap">
+                        PMSM 효율 특화
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 03. 스테이터 제조 우수성 -->
+            <div class="nav-item group" data-section="stator-manufacturing">
+                <div class="flex items-center cursor-pointer p-2 rounded-xl hover:bg-green-50 transition-all duration-300">
+                    <div class="w-8 h-8 bg-gradient-to-br from-green-500 to-green-600 rounded-lg flex items-center justify-center text-white text-xs font-bold mr-3 group-hover:scale-110 transition-transform">
+                        03
+                    </div>
+                    <div class="nav-text hidden group-hover:block text-sm font-medium text-gray-700 whitespace-nowrap">
+                        스테이터 제조 우수성
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 04. 전문 모터 수리 -->
+            <div class="nav-item group" data-section="motor-repair-service">
+                <div class="flex items-center cursor-pointer p-2 rounded-xl hover:bg-purple-50 transition-all duration-300">
+                    <div class="w-8 h-8 bg-gradient-to-br from-purple-500 to-purple-600 rounded-lg flex items-center justify-center text-white text-xs font-bold mr-3 group-hover:scale-110 transition-transform">
+                        04
+                    </div>
+                    <div class="nav-text hidden group-hover:block text-sm font-medium text-gray-700 whitespace-nowrap">
+                        전문 모터 수리
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 05. 전담연구소 및 인증 -->
+            <div class="nav-item group" data-section="certifications-research">
+                <div class="flex items-center cursor-pointer p-2 rounded-xl hover:bg-indigo-50 transition-all duration-300">
+                    <div class="w-8 h-8 bg-gradient-to-br from-indigo-500 to-indigo-600 rounded-lg flex items-center justify-center text-white text-xs font-bold mr-3 group-hover:scale-110 transition-transform">
+                        05
+                    </div>
+                    <div class="nav-text hidden group-hover:block text-sm font-medium text-gray-700 whitespace-nowrap">
+                        전담연구소 및 인증
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 06. 상담 및 문의 -->
+            <div class="nav-item group" data-section="contact">
+                <div class="flex items-center cursor-pointer p-2 rounded-xl hover:bg-red-50 transition-all duration-300">
+                    <div class="w-8 h-8 bg-gradient-to-br from-red-500 to-red-600 rounded-lg flex items-center justify-center text-white text-xs font-bold mr-3 group-hover:scale-110 transition-transform">
+                        06
+                    </div>
+                    <div class="nav-text hidden group-hover:block text-sm font-medium text-gray-700 whitespace-nowrap">
+                        상담 및 문의
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 맨 위로 가기 버튼 -->
+            <div class="border-t border-gray-200 pt-2 mt-2">
+                <div class="nav-item group" id="scrollToTop">
+                    <div class="flex items-center cursor-pointer p-2 rounded-xl hover:bg-gray-50 transition-all duration-300">
+                        <div class="w-8 h-8 bg-gradient-to-br from-gray-500 to-gray-600 rounded-lg flex items-center justify-center text-white mr-3 group-hover:scale-110 transition-transform">
+                            <i class="fas fa-arrow-up text-xs"></i>
+                        </div>
+                        <div class="nav-text hidden group-hover:block text-sm font-medium text-gray-700 whitespace-nowrap">
+                            맨 위로
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- JavaScript -->
     <script src="js/main.js"></script>

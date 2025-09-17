@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>문의하기 - 비전모터(주)</title>
+    <meta name="description" content="비전모터 문의하기 - 동기모터 전문기업 비전모터에게 연락하세요. 대표전화 032-819-7961">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Tailwind Configuration -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'sans': ['Noto Sans KR', 'sans-serif'],
+                    },
+                    colors: {
+                        'vision-blue': '#003d7a',
+                        'vision-light-blue': '#4a90e2',
+                        'vision-gray': '#f8f9fa',
+                        'vision-dark': '#2c3e50',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-sans">
+    <!-- Header Navigation -->
+    <header class="bg-gradient-to-r from-vision-dark via-gray-800 to-vision-dark shadow-2xl fixed top-0 left-0 right-0 z-50 backdrop-blur-sm border-b border-gray-700">
+        <nav class="container mx-auto px-4 py-4">
+            <div class="flex justify-between items-center">
+                <!-- Logo -->
+                <div class="flex items-center">
+                    <img src="images/vision-motor-logo-transparent.png" alt="비전모터 로고" class="h-12 mr-3">
+                    <div>
+                        <h1 class="text-xl font-bold text-white">비전모터(주)</h1>
+                        <p class="text-xs text-gray-300">권선에서 시작되는 산업의 심장</p>
+                    </div>
+                </div>
+                
+                <!-- Back to Home -->
+                <div>
+                    <a href="index.html" class="inline-flex items-center bg-white/20 backdrop-blur-sm text-white px-6 py-2 rounded-lg hover:bg-white/30 transition-all duration-300 border border-white/30 hover:border-white/50">
+                        <i class="fas fa-home mr-2"></i>홈으로
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative text-white pt-32 pb-20 overflow-hidden">
+        <!-- Background Image -->
+        <div class="absolute inset-0 z-0">
+            <img src="images/hero-background.jpg" alt="비전모터 제조 현장" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-r from-vision-blue/90 via-vision-blue/80 to-vision-light-blue/75"></div>
+        </div>
+        
+        <!-- Content -->
+        <div class="container mx-auto px-4 relative z-10">
+            <div class="text-center max-w-4xl mx-auto">
+                <div class="inline-flex items-center bg-white/20 backdrop-blur-sm px-6 py-3 rounded-full mb-6 border border-white/30">
+                    <i class="fas fa-phone mr-3 text-white text-lg"></i>
+                    <span class="text-white font-semibold text-lg">CONTACT US</span>
+                </div>
+                
+                <h1 class="text-5xl md:text-6xl font-bold mb-6 leading-tight">
+                    문의하기
+                </h1>
+                <p class="text-xl md:text-2xl mb-8 opacity-95 leading-relaxed">
+                    동기모터 전문기업 비전모터와 함께하세요<br>
+                    <strong>21년 경험</strong>의 전문성으로 최고의 솔루션을 제공합니다
+                </p>
+                
+                <!-- Quick Stats -->
+                <div class="grid grid-cols-3 gap-6 max-w-2xl mx-auto mb-10">
+                    <div class="text-center">
+                        <div class="text-3xl md:text-4xl font-bold mb-2">21년</div>
+                        <div class="text-sm md:text-base opacity-90">축적된 경험</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-3xl md:text-4xl font-bold mb-2">24시간</div>
+                        <div class="text-sm md:text-base opacity-90">긴급 대응</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-3xl md:text-4xl font-bold mb-2">98%</div>
+                        <div class="text-sm md:text-base opacity-90">고객 만족도</div>
+                    </div>
+                </div>
+                
+                <!-- Hero CTA Buttons -->
+                <div class="flex flex-col sm:flex-row justify-center gap-4">
+                    <a href="tel:032-819-7961" class="bg-white text-vision-blue px-8 py-4 rounded-xl font-bold text-lg hover:bg-gray-100 transition-all duration-300 shadow-2xl hover:shadow-3xl transform hover:-translate-y-2">
+                        <i class="fas fa-phone mr-3"></i>032-819-7961
+                    </a>
+                    <a href="tel:010-9087-1259" class="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-xl font-bold text-lg transition-all duration-300 shadow-2xl hover:shadow-3xl transform hover:-translate-y-2">
+                        <i class="fas fa-mobile-alt mr-3"></i>영업팀 직통
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Scroll Indicator -->
+        <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+            <div class="text-white/70 hover:text-white transition-colors cursor-pointer">
+                <i class="fas fa-chevron-down text-2xl"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="py-20 bg-vision-gray">
+        <div class="container mx-auto px-4">
+            
+            <!-- Manufacturing Excellence with Real Images -->
+            <section class="mb-20">
+                <div class="text-center mb-12">
+                    <div class="inline-flex items-center bg-blue-100 px-6 py-2 rounded-full mb-4">
+                        <span class="text-blue-800 font-semibold text-sm">MANUFACTURING EXCELLENCE</span>
+                    </div>
+                    <h2 class="text-4xl font-bold text-vision-dark mb-4">실제 제조 현장에서 만나는 비전모터</h2>
+                    <p class="text-xl text-gray-600">21년간 축적된 기술력으로 완성되는 최고 품질의 동기모터</p>
+                </div>
+
+                <div class="grid lg:grid-cols-3 gap-8 mb-12">
+                    <!-- Core Competency 1 -->
+                    <div class="bg-white rounded-2xl shadow-xl overflow-hidden group hover:shadow-2xl transition-all duration-300">
+                        <div class="relative h-64">
+                            <img src="images/core-competency-01.jpg" alt="동기모터 스테이터 완성품" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                            <div class="absolute inset-0 bg-gradient-to-t from-blue-900/70 to-transparent"></div>
+                            <div class="absolute bottom-4 left-4 right-4">
+                                <h3 class="text-white text-lg font-bold mb-1">동기모터 설계·제조</h3>
+                                <p class="text-blue-200 text-sm">정밀한 권선 기술의 결과물</p>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <div class="flex items-center justify-between mb-4">
+                                <span class="text-blue-600 font-semibold text-sm">0.5kW ~ 3MW 전 용량</span>
+                                <div class="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center">
+                                    <i class="fas fa-cog text-blue-600"></i>
+                                </div>
+                            </div>
+                            <p class="text-gray-600 text-sm leading-relaxed">21년 축적된 노하우로 산업별 맞춤 솔루션 제공</p>
+                        </div>
+                    </div>
+
+                    <!-- Core Competency 2 -->
+                    <div class="bg-white rounded-2xl shadow-xl overflow-hidden group hover:shadow-2xl transition-all duration-300">
+                        <div class="relative h-64">
+                            <img src="images/core-competency-02.jpg" alt="PMSM 스테이터 코어 정밀 가공" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                            <div class="absolute inset-0 bg-gradient-to-t from-green-900/70 to-transparent"></div>
+                            <div class="absolute bottom-4 left-4 right-4">
+                                <h3 class="text-white text-lg font-bold mb-1">PMSM 효율 특화</h3>
+                                <p class="text-green-200 text-sm">IE4~5급 초고효율 실현</p>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <div class="flex items-center justify-between mb-4">
+                                <span class="text-green-600 font-semibold text-sm">10~30% 전력절감</span>
+                                <div class="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center">
+                                    <i class="fas fa-bolt text-green-600"></i>
+                                </div>
+                            </div>
+                            <p class="text-gray-600 text-sm leading-relaxed">정밀 적층 기술로 와전류 손실 최소화</p>
+                        </div>
+                    </div>
+
+                    <!-- Repair Service -->
+                    <div class="bg-white rounded-2xl shadow-xl overflow-hidden group hover:shadow-2xl transition-all duration-300">
+                        <div class="relative h-64">
+                            <img src="images/motor-repair-damaged.jpg" alt="모터 수리 진단 과정" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                            <div class="absolute inset-0 bg-gradient-to-t from-purple-900/70 to-transparent"></div>
+                            <div class="absolute bottom-4 left-4 right-4">
+                                <h3 class="text-white text-lg font-bold mb-1">전문 모터 수리</h3>
+                                <p class="text-purple-200 text-sm">24시간 긴급대응 시스템</p>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <div class="flex items-center justify-between mb-4">
+                                <span class="text-purple-600 font-semibold text-sm">98% 수리 성공률</span>
+                                <div class="w-8 h-8 bg-purple-100 rounded-full flex items-center justify-center">
+                                    <i class="fas fa-tools text-purple-600"></i>
+                                </div>
+                            </div>
+                            <p class="text-gray-600 text-sm leading-relaxed">현대엘리베이터 원데이 수리 전문</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Information with Real Factory Background -->
+            <section class="relative mb-20">
+                <!-- Background with Factory Image -->
+                <div class="absolute inset-0 rounded-3xl overflow-hidden">
+                    <img src="images/large-stator-winding.jpg" alt="대형 스테이터 권선 현장" class="w-full h-full object-cover opacity-10">
+                    <div class="absolute inset-0 bg-gradient-to-r from-white/95 to-white/90"></div>
+                </div>
+                
+                <div class="relative bg-white/80 backdrop-blur-sm rounded-3xl p-8 shadow-2xl border border-white/50">
+                    <div class="text-center mb-12">
+                        <h2 class="text-4xl font-bold text-vision-dark mb-4">연락처 정보</h2>
+                        <p class="text-xl text-gray-600">신속하고 정확한 상담을 위해 언제든지 연락하세요</p>
+                    </div>
+
+                    <div class="grid lg:grid-cols-2 gap-12">
+                        <!-- Left Column - Contact Methods -->
+                        <div class="space-y-6">
+                            <!-- 대표전화 -->
+                            <div class="bg-white/90 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-blue-100 hover:shadow-xl transition-all duration-300">
+                                <div class="flex items-center space-x-4">
+                                    <div class="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-700 rounded-full flex items-center justify-center">
+                                        <i class="fas fa-phone text-white text-2xl"></i>
+                                    </div>
+                                    <div class="flex-1">
+                                        <h3 class="font-bold text-blue-800 text-lg mb-1">대표전화</h3>
+                                        <p class="text-3xl font-bold text-blue-600 mb-2">032-819-7961</p>
+                                        <div class="flex items-center text-sm text-gray-600">
+                                            <i class="fas fa-clock mr-2 text-blue-400"></i>
+                                            평일 09:00 - 18:00 (점심 12:00-13:00)
+                                        </div>
+                                    </div>
+                                    <a href="tel:032-819-7961" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-lg transition-colors">
+                                        <i class="fas fa-phone"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- 영업팀 직통 -->
+                            <div class="bg-white/90 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-orange-100 hover:shadow-xl transition-all duration-300">
+                                <div class="flex items-center space-x-4">
+                                    <div class="w-16 h-16 bg-gradient-to-br from-orange-500 to-red-500 rounded-full flex items-center justify-center">
+                                        <i class="fas fa-user-tie text-white text-2xl"></i>
+                                    </div>
+                                    <div class="flex-1">
+                                        <h3 class="font-bold text-orange-800 text-lg mb-1">과장 김원국</h3>
+                                        <p class="text-2xl font-bold text-orange-600 mb-2">010-9087-1259</p>
+                                        <div class="flex space-x-2">
+                                            <span class="bg-orange-100 text-orange-800 px-2 py-1 rounded-full text-xs">영업상담</span>
+                                            <span class="bg-orange-100 text-orange-800 px-2 py-1 rounded-full text-xs">견적문의</span>
+                                        </div>
+                                    </div>
+                                    <a href="tel:010-9087-1259" class="bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 rounded-lg transition-colors">
+                                        <i class="fas fa-mobile-alt"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- 이메일 & 팩스 -->
+                            <div class="grid md:grid-cols-2 gap-4">
+                                <div class="bg-white/90 backdrop-blur-sm rounded-xl p-4 shadow-lg border border-purple-100">
+                                    <div class="flex items-center space-x-3">
+                                        <div class="w-12 h-12 bg-purple-500 rounded-full flex items-center justify-center">
+                                            <i class="fas fa-envelope text-white"></i>
+                                        </div>
+                                        <div>
+                                            <h4 class="font-bold text-purple-800 text-sm">이메일</h4>
+                                            <p class="text-xs text-gray-600">visionmotor0510@visionmotor.co.kr</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="bg-white/90 backdrop-blur-sm rounded-xl p-4 shadow-lg border border-green-100">
+                                    <div class="flex items-center space-x-3">
+                                        <div class="w-12 h-12 bg-green-500 rounded-full flex items-center justify-center">
+                                            <i class="fas fa-fax text-white"></i>
+                                        </div>
+                                        <div>
+                                            <h4 class="font-bold text-green-800 text-sm">팩스</h4>
+                                            <p class="text-sm font-semibold text-green-600">032-819-7944</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Right Column - Address & Operation Hours -->
+                        <div class="space-y-6">
+                            <!-- 주소 정보 -->
+                            <div class="bg-white/90 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-red-100">
+                                <div class="flex items-start space-x-4">
+                                    <div class="w-16 h-16 bg-gradient-to-br from-red-500 to-pink-500 rounded-full flex items-center justify-center flex-shrink-0">
+                                        <i class="fas fa-map-marker-alt text-white text-2xl"></i>
+                                    </div>
+                                    <div>
+                                        <h3 class="font-bold text-red-800 text-lg mb-2">찾아오시는 길</h3>
+                                        <p class="text-lg font-semibold text-gray-800 mb-1">비전모터주식회사</p>
+                                        <p class="text-base text-gray-700 mb-4">인천시 남동구 남동서로 311(남촌동)</p>
+                                        
+                                        <div class="space-y-2 text-sm mb-6">
+                                            <div class="flex items-center">
+                                                <i class="fas fa-subway text-blue-500 mr-2"></i>
+                                                <span class="text-gray-600">인천지하철 1호선 간석오거리역 하차 후 도보 15분</span>
+                                            </div>
+                                            <div class="flex items-center">
+                                                <i class="fas fa-car text-green-500 mr-2"></i>
+                                                <span class="text-gray-600">경인고속도로 남동IC 이용, 주차공간 완비</span>
+                                            </div>
+                                        </div>
+                                        
+                                        <!-- 위치 지도 -->
+                                        <div class="mt-4">
+                                            <h4 class="font-bold text-gray-800 mb-3 flex items-center">
+                                                <i class="fas fa-map text-red-600 mr-2"></i>
+                                                위치 안내
+                                            </h4>
+                                            <div class="relative rounded-lg overflow-hidden shadow-lg border border-gray-200">
+                                                <img src="images/visionmotor-location-map.jpg" 
+                                                     alt="비전모터 위치 지도 - 인천시 남동구 남동서로 311" 
+                                                     class="w-full h-auto object-cover">
+                                                
+                                                <!-- 지도 오버레이 정보 -->
+                                                <div class="absolute bottom-3 left-3 right-3">
+                                                    <div class="bg-white/95 backdrop-blur-sm rounded-lg p-3 shadow-md">
+                                                        <div class="flex items-center justify-between">
+                                                            <div class="flex items-center">
+                                                                <div class="w-3 h-3 bg-red-500 rounded-full mr-2"></div>
+                                                                <span class="font-bold text-gray-800 text-sm">비전모터(주)</span>
+                                                            </div>
+                                                            <span class="text-xs text-gray-600">남동구 남촌동</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                            <!-- 교통 안내 -->
+                                            <div class="mt-4 grid grid-cols-1 md:grid-cols-2 gap-3">
+                                                <div class="bg-blue-50 rounded-lg p-3 border border-blue-200">
+                                                    <div class="flex items-center">
+                                                        <i class="fas fa-subway text-blue-600 mr-2"></i>
+                                                        <div>
+                                                            <div class="font-bold text-blue-800 text-sm">지하철 이용</div>
+                                                            <div class="text-xs text-gray-600">간석오거리역 → 도보 15분</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="bg-green-50 rounded-lg p-3 border border-green-200">
+                                                    <div class="flex items-center">
+                                                        <i class="fas fa-car text-green-600 mr-2"></i>
+                                                        <div>
+                                                            <div class="font-bold text-green-800 text-sm">자가용 이용</div>
+                                                            <div class="text-xs text-gray-600">남동IC → 주차장 완비</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- 운영시간 -->
+                            <div class="bg-white/90 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-teal-100">
+                                <div class="flex items-center mb-4">
+                                    <div class="w-12 h-12 bg-teal-500 rounded-full flex items-center justify-center mr-4">
+                                        <i class="fas fa-clock text-white"></i>
+                                    </div>
+                                    <h3 class="font-bold text-teal-800 text-lg">운영시간</h3>
+                                </div>
+                                
+                                <div class="space-y-3">
+                                    <div class="flex justify-between items-center py-2 border-b border-gray-200">
+                                        <span class="font-medium text-gray-700">평일</span>
+                                        <span class="font-bold text-teal-600">09:00 - 18:00</span>
+                                    </div>
+                                    <div class="flex justify-between items-center py-2 border-b border-gray-200">
+                                        <span class="font-medium text-gray-700">점심시간</span>
+                                        <span class="font-semibold text-gray-600">12:00 - 13:00</span>
+                                    </div>
+                                    <div class="flex justify-between items-center py-2 border-b border-gray-200">
+                                        <span class="font-medium text-gray-700">토요일</span>
+                                        <span class="text-red-500 font-semibold">휴무</span>
+                                    </div>
+                                    <div class="flex justify-between items-center py-2">
+                                        <span class="font-medium text-gray-700">일요일·공휴일</span>
+                                        <span class="text-red-500 font-semibold">휴무</span>
+                                    </div>
+                                </div>
+
+                                <div class="mt-4 bg-teal-50 rounded-lg p-3 border border-teal-200">
+                                    <p class="text-sm text-teal-800 flex items-center">
+                                        <i class="fas fa-exclamation-triangle mr-2"></i>
+                                        긴급 수리 문의는 영업팀 직통전화로 연락주세요
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Process Infographic -->
+            <section class="mb-20">
+                <div class="text-center mb-12">
+                    <div class="inline-flex items-center bg-green-100 px-6 py-2 rounded-full mb-4">
+                        <span class="text-green-800 font-semibold text-sm">CONTACT PROCESS</span>
+                    </div>
+                    <h2 class="text-4xl font-bold text-vision-dark mb-4">상담 프로세스</h2>
+                    <p class="text-xl text-gray-600">전문가와의 체계적인 상담으로 최적의 솔루션을 제공합니다</p>
+                </div>
+
+                <div class="bg-white rounded-2xl shadow-xl p-8">
+                    <div class="grid md:grid-cols-4 gap-6">
+                        <div class="text-center group">
+                            <div class="relative mb-6">
+                                <div class="w-20 h-20 bg-gradient-to-br from-blue-400 to-blue-600 rounded-full flex items-center justify-center mx-auto shadow-lg group-hover:scale-110 transition-transform duration-300">
+                                    <i class="fas fa-phone text-white text-2xl"></i>
+                                </div>
+                                <div class="absolute -bottom-2 -right-2 w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center">
+                                    <span class="text-blue-600 font-bold text-sm">01</span>
+                                </div>
+                            </div>
+                            <h4 class="font-bold text-blue-800 mb-2">초기 상담</h4>
+                            <p class="text-sm text-gray-600">전화 또는 이메일로<br>기본 요구사항 파악</p>
+                        </div>
+                        
+                        <div class="text-center group">
+                            <div class="relative mb-6">
+                                <div class="w-20 h-20 bg-gradient-to-br from-green-400 to-green-600 rounded-full flex items-center justify-center mx-auto shadow-lg group-hover:scale-110 transition-transform duration-300">
+                                    <i class="fas fa-clipboard-list text-white text-2xl"></i>
+                                </div>
+                                <div class="absolute -bottom-2 -right-2 w-8 h-8 bg-green-100 rounded-full flex items-center justify-center">
+                                    <span class="text-green-600 font-bold text-sm">02</span>
+                                </div>
+                            </div>
+                            <h4 class="font-bold text-green-800 mb-2">요구사항 분석</h4>
+                            <p class="text-sm text-gray-600">상세 스펙 검토 및<br>기술적 검토</p>
+                        </div>
+                        
+                        <div class="text-center group">
+                            <div class="relative mb-6">
+                                <div class="w-20 h-20 bg-gradient-to-br from-orange-400 to-orange-600 rounded-full flex items-center justify-center mx-auto shadow-lg group-hover:scale-110 transition-transform duration-300">
+                                    <i class="fas fa-calculator text-white text-2xl"></i>
+                                </div>
+                                <div class="absolute -bottom-2 -right-2 w-8 h-8 bg-orange-100 rounded-full flex items-center justify-center">
+                                    <span class="text-orange-600 font-bold text-sm">03</span>
+                                </div>
+                            </div>
+                            <h4 class="font-bold text-orange-800 mb-2">견적 제안</h4>
+                            <p class="text-sm text-gray-600">맞춤형 솔루션 및<br>정확한 견적 제시</p>
+                        </div>
+                        
+                        <div class="text-center group">
+                            <div class="relative mb-6">
+                                <div class="w-20 h-20 bg-gradient-to-br from-purple-400 to-purple-600 rounded-full flex items-center justify-center mx-auto shadow-lg group-hover:scale-110 transition-transform duration-300">
+                                    <i class="fas fa-handshake text-white text-2xl"></i>
+                                </div>
+                                <div class="absolute -bottom-2 -right-2 w-8 h-8 bg-purple-100 rounded-full flex items-center justify-center">
+                                    <span class="text-purple-600 font-bold text-sm">04</span>
+                                </div>
+                            </div>
+                            <h4 class="font-bold text-purple-800 mb-2">계약 진행</h4>
+                            <p class="text-sm text-gray-600">최종 계약 및<br>프로젝트 시작</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Process Flow Line -->
+                    <div class="hidden md:block relative mt-8">
+                        <div class="absolute top-1/2 left-0 right-0 h-0.5 bg-gradient-to-r from-blue-300 via-green-300 via-orange-300 to-purple-300 transform -translate-y-1/2"></div>
+                        <div class="flex justify-between items-center relative">
+                            <div class="w-3 h-3 bg-blue-500 rounded-full"></div>
+                            <div class="w-3 h-3 bg-green-500 rounded-full"></div>
+                            <div class="w-3 h-3 bg-orange-500 rounded-full"></div>
+                            <div class="w-3 h-3 bg-purple-500 rounded-full"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Final CTA with Factory Image Background -->
+            <section class="relative">
+                <!-- Background Image -->
+                <div class="absolute inset-0 rounded-3xl overflow-hidden">
+                    <img src="images/repair-process-real.jpg" alt="비전모터 수리 프로세스 현장" class="w-full h-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-r from-vision-blue/90 to-purple-800/85"></div>
+                </div>
+                
+                <div class="relative text-white p-12 rounded-3xl text-center">
+                    <h2 class="text-4xl md:text-5xl font-bold mb-6">
+                        지금 바로 
+                        <span class="text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 to-orange-300">연락하세요</span>
+                    </h2>
+                    <p class="text-xl mb-10 opacity-95 max-w-3xl mx-auto leading-relaxed">
+                        21년 경험의 전문가가 귀하의 프로젝트를 성공시켜드립니다<br>
+                        신속하고 정확한 상담으로 최적의 솔루션을 제공합니다
+                    </p>
+                    
+                    <div class="flex flex-col md:flex-row justify-center gap-6 max-w-4xl mx-auto">
+                        <a href="tel:032-819-7961" class="inline-flex items-center bg-white text-vision-blue px-10 py-5 rounded-xl font-bold text-xl hover:bg-gray-100 transition-all duration-300 shadow-2xl hover:shadow-3xl transform hover:-translate-y-2">
+                            <i class="fas fa-phone mr-4 text-2xl"></i>
+                            <div class="text-left">
+                                <div class="text-sm text-gray-600">대표전화</div>
+                                <div>032-819-7961</div>
+                            </div>
+                        </a>
+                        
+                        <a href="tel:010-9087-1259" class="inline-flex items-center bg-orange-500 hover:bg-orange-600 text-white px-10 py-5 rounded-xl font-bold text-xl transition-all duration-300 shadow-2xl hover:shadow-3xl transform hover:-translate-y-2">
+                            <i class="fas fa-mobile-alt mr-4 text-2xl"></i>
+                            <div class="text-left">
+                                <div class="text-sm opacity-90">영업팀 직통</div>
+                                <div>010-9087-1259</div>
+                            </div>
+                        </a>
+                        
+                        <a href="mailto:visionmotor0510@visionmotor.co.kr" class="inline-flex items-center bg-transparent border-2 border-white hover:bg-white hover:text-vision-blue text-white px-10 py-5 rounded-xl font-bold text-xl transition-all duration-300 shadow-2xl hover:shadow-3xl transform hover:-translate-y-2">
+                            <i class="fas fa-envelope mr-4 text-2xl"></i>
+                            <div class="text-left">
+                                <div class="text-sm opacity-90">이메일 문의</div>
+                                <div class="text-base">이메일 보내기</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-vision-dark text-white py-12 mt-20">
+        <div class="container mx-auto px-4">
+            <div class="text-center">
+                <div class="flex items-center justify-center mb-4">
+                    <img src="images/vision-motor-logo-transparent.png" alt="비전모터 로고" class="h-10 mr-3">
+                    <span class="text-2xl font-bold">비전모터(주)</span>
+                </div>
+                <p class="text-gray-400 text-lg mb-2">권선에서 시작되는 산업의 심장</p>
+                <div class="text-sm text-gray-500 mb-4 space-y-1 text-center">
+                    <p>사업자등록번호 : 134-81-99692</p>
+                    <p>대표자 : 김주현</p>
+                </div>
+                
+                <div class="flex flex-col md:flex-row justify-center items-center space-y-2 md:space-y-0 md:space-x-8 text-gray-300">
+                    <div class="flex items-center">
+                        <i class="fas fa-phone mr-2"></i>
+                        <span>032-819-7961</span>
+                    </div>
+                    <div class="flex items-center">
+                        <i class="fas fa-map-marker-alt mr-2"></i>
+                        <span>인천시 남동구 남동서로 311</span>
+                    </div>
+                    <div class="flex items-center">
+                        <i class="fas fa-envelope mr-2"></i>
+                        <span>visionmotor0510@visionmotor.co.kr</span>
+                    </div>
+                </div>
+                
+                <div class="mt-8 pt-6 border-t border-gray-600">
+                    <p class="text-sm text-gray-500">&copy; 2024 비전모터(주). All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // 전화번호 클릭 시 확인 메시지
+        document.addEventListener('DOMContentLoaded', function() {
+            const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
+            phoneLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    const phoneNumber = this.getAttribute('href').replace('tel:', '');
+                    if (!confirm(`${phoneNumber}로 전화를 걸겠습니까?`)) {
+                        e.preventDefault();
+                    }
+                });
+            });
+
+            // 스크롤 인디케이터 클릭 이벤트
+            document.querySelector('.fa-chevron-down')?.addEventListener('click', function() {
+                window.scrollTo({
+                    top: window.innerHeight,
+                    behavior: 'smooth'
+                });
+            });
+
+            // 스크롤 애니메이션
+            const observerOptions = {
+                threshold: 0.1,
+                rootMargin: '0px 0px -50px 0px'
+            };
+
+            const observer = new IntersectionObserver(function(entries) {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('animate-fade-in-up');
+                    }
+                });
+            }, observerOptions);
+
+            document.querySelectorAll('section').forEach(section => {
+                observer.observe(section);
+            });
+        });
+    </script>
+
+    <style>
+        .animate-fade-in-up {
+            animation: fadeInUp 0.6s ease-out;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* 호버 효과 개선 */
+        .group:hover .group-hover\:scale-105 {
+            transform: scale(1.05);
+        }
+
+        .group:hover .group-hover\:scale-110 {
+            transform: scale(1.1);
+        }
+    </style>
+</body>
+</html>
